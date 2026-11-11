@@ -1,0 +1,41 @@
+{
+  "updated_utc": "2026-11-11T21:39:38+00:00",
+  "area": "English Channel",
+  "counts": {
+    "full": 1,
+    "empty": 1,
+    "unsure": 0
+  },
+  "ships": [
+    {
+      "mmsi": 563299500,
+      "name": "UNITY VENTURE",
+      "size_class": "Aframax",
+      "length_m": 237,
+      "draught_m": 13.4,
+      "full_draught_m": 14.5,
+      "pct_full": 92,
+      "status": "full",
+      "destination": "GBFAW",
+      "lat": 50.70133166666667,
+      "lon": -0.95384,
+      "speed_kn": 9.7,
+      "last_seen_utc": "2026-11-11 21:38:59.939595707 +0000 UTC"
+    },
+    {
+      "mmsi": 667002511,
+      "name": "GREGAL",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 9,
+      "full_draught_m": 16.5,
+      "pct_full": 55,
+      "status": "empty",
+      "destination": "EETLL",
+      "lat": 50.79251333333333,
+      "lon": 1.4177066666666667,
+      "speed_kn": 10.9,
+      "last_seen_utc": "2026-11-11 21:36:54.98537594 +0000 UTC"
+    }
+  ]
+}
