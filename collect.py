@@ -148,14 +148,19 @@ async def main():
 
             msg = json.loads(raw)
             if "error" in msg:
-                print("aisstream said:", msg["error"])
-                return
+                raise SystemExit(f"aisstream said: {msg['error']}")
 
             handle_message(msg, positions, id_cards)
 
     snapshot = build_snapshot(positions, id_cards)
 
     with open(OUTPUT_FILE, "w") as f:
+        json.dump(snapshot, f, indent=2)
+
+    # Also keep a dated copy, e.g. history/2026-11-12T09-17.json
+    os.makedirs("history", exist_ok=True)
+    stamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H-%M")
+    with open(f"history/{stamp}.json", "w") as f:
         json.dump(snapshot, f, indent=2)
 
     print(f"\nHeard {len(id_cards)} ships' ID cards and {len(positions)} positions.")
