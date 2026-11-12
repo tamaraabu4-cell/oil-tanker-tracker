@@ -1,12 +1,42 @@
 {
-  "updated_utc": "2026-11-11T21:39:38+00:00",
+  "updated_utc": "2026-11-12T07:50:36+00:00",
   "area": "English Channel",
   "counts": {
-    "full": 1,
-    "empty": 1,
+    "full": 3,
+    "empty": 0,
     "unsure": 0
   },
   "ships": [
+    {
+      "mmsi": 273124530,
+      "name": "GARNIZON",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 14.7,
+      "full_draught_m": 16.5,
+      "pct_full": 89,
+      "status": "full",
+      "destination": "PORT SAID",
+      "lat": 50.6621,
+      "lon": 0.83112,
+      "speed_kn": 13.4,
+      "last_seen_utc": "2026-11-12 07:50:21.315553118 +0000 UTC"
+    },
+    {
+      "mmsi": 219029080,
+      "name": "TORM KIRSTEN",
+      "size_class": "Aframax",
+      "length_m": 254,
+      "draught_m": 14,
+      "full_draught_m": 14.5,
+      "pct_full": 97,
+      "status": "full",
+      "destination": "FRLEH",
+      "lat": 49.468698333333336,
+      "lon": 0.15378,
+      "speed_kn": 0.1,
+      "last_seen_utc": "2026-11-12 07:43:50.797709304 +0000 UTC"
+    },
     {
       "mmsi": 563299500,
       "name": "UNITY VENTURE",
@@ -17,25 +47,10 @@
       "pct_full": 92,
       "status": "full",
       "destination": "GBFAW",
-      "lat": 50.70133166666667,
-      "lon": -0.95384,
-      "speed_kn": 9.7,
-      "last_seen_utc": "2026-11-11 21:38:59.939595707 +0000 UTC"
-    },
-    {
-      "mmsi": 667002511,
-      "name": "GREGAL",
-      "size_class": "Suezmax",
-      "length_m": 274,
-      "draught_m": 9,
-      "full_draught_m": 16.5,
-      "pct_full": 55,
-      "status": "empty",
-      "destination": "EETLL",
-      "lat": 50.79251333333333,
-      "lon": 1.4177066666666667,
-      "speed_kn": 10.9,
-      "last_seen_utc": "2026-11-11 21:36:54.98537594 +0000 UTC"
+      "lat": 50.837196666666664,
+      "lon": -1.3261,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-12 07:42:35.770813413 +0000 UTC"
     }
   ]
 }
