@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-12T17:46:56+00:00",
+  "updated_utc": "2026-11-12T23:49:55+00:00",
   "area": "English Channel & southern North Sea",
   "boxes": [
     [
@@ -24,26 +24,11 @@
     ]
   ],
   "counts": {
-    "full": 2,
-    "empty": 1,
-    "unsure": 1
+    "full": 1,
+    "empty": 2,
+    "unsure": 0
   },
   "ships": [
-    {
-      "mmsi": 219029080,
-      "name": "TORM KIRSTEN",
-      "size_class": "Aframax",
-      "length_m": 254,
-      "draught_m": 14,
-      "full_draught_m": 14.5,
-      "pct_full": 97,
-      "status": "full",
-      "destination": "FRLEH",
-      "lat": 49.46870333333333,
-      "lon": 0.15376499999999999,
-      "speed_kn": 0,
-      "last_seen_utc": "2026-11-12 17:46:50.766552708 +0000 UTC"
-    },
     {
       "mmsi": 249279000,
       "name": "YPAPANTI",
@@ -54,40 +39,40 @@
       "pct_full": 55,
       "status": "empty",
       "destination": "NLVLI",
-      "lat": 51.398985,
-      "lon": 3.7494733333333334,
-      "speed_kn": 0,
-      "last_seen_utc": "2026-11-12 17:40:57.063231659 +0000 UTC"
+      "lat": 51.39658333333333,
+      "lon": 3.75629,
+      "speed_kn": 0.1,
+      "last_seen_utc": "2026-11-12 23:43:59.591430143 +0000 UTC"
     },
     {
-      "mmsi": 636023417,
-      "name": "VENTURE BAYOU",
+      "mmsi": 241777000,
+      "name": "KRITI FUTURE",
       "size_class": "Suezmax",
-      "length_m": 290,
-      "draught_m": 11.8,
+      "length_m": 274,
+      "draught_m": 9.5,
       "full_draught_m": 16.5,
-      "pct_full": 72,
-      "status": "unsure",
-      "destination": "FOR ORDERS",
-      "lat": 51.35288833333333,
-      "lon": 3.2123383333333333,
-      "speed_kn": 0,
-      "last_seen_utc": "2026-11-12 17:46:35.090417545 +0000 UTC"
+      "pct_full": 58,
+      "status": "empty",
+      "destination": "GRPIR FOR ORDERS",
+      "lat": 49.837295000000005,
+      "lon": -0.39313333333333333,
+      "speed_kn": 10,
+      "last_seen_utc": "2026-11-12 23:48:23.031512656 +0000 UTC"
     },
     {
-      "mmsi": 636012767,
-      "name": "ASOPOS",
+      "mmsi": 235108528,
+      "name": "KMARIN RESOURCE",
       "size_class": "Aframax",
-      "length_m": 213,
-      "draught_m": 12,
+      "length_m": 250,
+      "draught_m": 12.5,
       "full_draught_m": 14.5,
-      "pct_full": 83,
+      "pct_full": 86,
       "status": "full",
       "destination": "NLRTM",
-      "lat": 50.44206666666666,
-      "lon": 0.72955,
-      "speed_kn": 10.9,
-      "last_seen_utc": "2026-11-12 17:44:27.200038582 +0000 UTC"
+      "lat": 51.94473333333334,
+      "lon": 4.160471666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-12 23:43:45.821448759 +0000 UTC"
     }
   ]
 }

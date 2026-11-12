@@ -1,0 +1,78 @@
+{
+  "updated_utc": "2026-11-12T23:49:55+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 1,
+    "empty": 2,
+    "unsure": 0
+  },
+  "ships": [
+    {
+      "mmsi": 249279000,
+      "name": "YPAPANTI",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 8,
+      "full_draught_m": 14.5,
+      "pct_full": 55,
+      "status": "empty",
+      "destination": "NLVLI",
+      "lat": 51.39658333333333,
+      "lon": 3.75629,
+      "speed_kn": 0.1,
+      "last_seen_utc": "2026-11-12 23:43:59.591430143 +0000 UTC"
+    },
+    {
+      "mmsi": 241777000,
+      "name": "KRITI FUTURE",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 9.5,
+      "full_draught_m": 16.5,
+      "pct_full": 58,
+      "status": "empty",
+      "destination": "GRPIR FOR ORDERS",
+      "lat": 49.837295000000005,
+      "lon": -0.39313333333333333,
+      "speed_kn": 10,
+      "last_seen_utc": "2026-11-12 23:48:23.031512656 +0000 UTC"
+    },
+    {
+      "mmsi": 235108528,
+      "name": "KMARIN RESOURCE",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 12.5,
+      "full_draught_m": 14.5,
+      "pct_full": 86,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.94473333333334,
+      "lon": 4.160471666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-12 23:43:45.821448759 +0000 UTC"
+    }
+  ]
+}
