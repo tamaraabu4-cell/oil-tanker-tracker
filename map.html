@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oil tanker tracker</title>
+  <!-- Leaflet's styling (the map library) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>
+    body { margin: 0; font-family: system-ui, sans-serif; background: #FAF8F2; color: #1E1F1C; }
+    main { max-width: 1100px; margin: 0 auto; padding: 24px; }
+    h1 { margin: 0 0 4px; font-family: Georgia, serif; font-size: 32px; }
+    #updated { margin: 0 0 20px; color: #5E5F59; font-size: 14px; }
+    .counts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 16px; }
+    .tile { padding: 12px 16px; border-radius: 8px; }
+    .tile b { display: block; font-size: 28px; }
+    .tile.full { background: #E6EFE9; color: #163A29; }
+    .tile.empty { background: #F1EFE8; color: #2C2C2A; }
+    .tile.unsure { background: #FBEFD9; color: #5E3A06; }
+    #map { height: 520px; border-radius: 8px; border: 1px solid #E4E0D4; }
+    .legend { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 12px; font-size: 14px; color: #4A4B45; }
+    .legend span { display: inline-flex; align-items: center; gap: 8px; }
+    .dot { width: 14px; height: 14px; border-radius: 50%; box-sizing: border-box; display: inline-block; }
+    .popup h3 { margin: 0 0 2px; font-size: 16px; }
+    .popup p { margin: 2px 0; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Oil tanker tracker</h1>
+  <p id="updated">Loading...</p>
+
+  <!-- The three count tiles: the script fills in the numbers -->
+  <div class="counts">
+    <div class="tile full"><b id="n-full">-</b>Full (laden)</div>
+    <div class="tile empty"><b id="n-empty">-</b>Empty (in ballast)</div>
+    <div class="tile unsure"><b id="n-unsure">-</b>Unsure</div>
+  </div>
+
+  <!-- Leaflet draws the map inside this box -->
+  <div id="map"></div>
+
+  <div class="legend">
+    <span><i class="dot" style="background:#23573F"></i>Full: 80%+ of full depth</span>
+    <span><i class="dot" style="background:#fff;border:2px solid #6B6B66"></i>Empty: under 60%</span>
+    <span><i class="dot" style="background:#FBE9CF;border:2px dashed #A15F0C"></i>Unsure: in between, or depth not entered</span>
+    <span>Bigger dot = bigger ship</span>
+  </div>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  // How each kind of dot looks
+  const STYLE = {
+    full:   { color: "#23573F", fillColor: "#23573F", fillOpacity: 1, weight: 2 },
+    empty:  { color: "#6B6B66", fillColor: "#FFFFFF", fillOpacity: 1, weight: 2 },
+    unsure: { color: "#A15F0C", fillColor: "#FBE9CF", fillOpacity: 1, weight: 2, dashArray: "3 3" },
+  };
+  const LABEL = { full: "Full (laden)", empty: "Empty (in ballast)", unsure: "Unsure" };
+  const RADIUS = { VLCC: 11, Suezmax: 9, Aframax: 7 };   // dot size by ship size
+
+  // Ship names are typed by crews, so treat them as plain text, never as code
+  function safe(text) {
+    const div = document.createElement("div");
+    div.textContent = text ?? "";
+    return div.innerHTML;
+  }
+
+  // 1. The map itself
+  const map = L.map("map");
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 12,
+    attribution: "&copy; OpenStreetMap contributors",
+  }).addTo(map);
+
+  // 2. Fetch the snapshot the Python script saved
+  fetch("tankers.json")
+    .then((response) => response.json())
+    .then((data) => {
+      // "English Channel · updated 12 Nov, 07:30 · 2 crude-size tankers"
+      const when = new Date(data.updated_utc).toLocaleString("en-GB", {
+        day: "numeric", month: "short", hour: "2-digit", minute: "2-digit",
+      });
+      document.getElementById("updated").textContent =
+        `${data.area} · updated ${when} · ${data.ships.length} crude-size tankers`;
+
+      // 3. The count tiles
+      document.getElementById("n-full").textContent = data.counts.full;
+      document.getElementById("n-empty").textContent = data.counts.empty;
+      document.getElementById("n-unsure").textContent = data.counts.unsure;
+
+      // Dashed box showing the patch of sea we listen to, and zoom to fit it
+      const box = [[49.0, -6.0], [51.5, 2.0]];
+      L.rectangle(box, { color: "#23573F", weight: 1, fill: false, dashArray: "4 4" }).addTo(map);
+      map.fitBounds(box);
+
+      // 4. One dot per ship, with a pop-up card
+      data.ships.forEach((ship) => {
+        const pct = ship.pct_full === null ? "depth not entered" : `${ship.pct_full}% full`;
+        const popup = `
+          <div class="popup">
+            <h3>${safe(ship.name)}</h3>
+            <p>${safe(ship.size_class)} · ${ship.length_m} m long</p>
+            <p><b>${LABEL[ship.status]}</b> · ${pct}</p>
+            <p>Sitting ${ship.draught_m} m deep (about ${ship.full_draught_m} m when full)</p>
+            <p>Heading to ${safe(ship.destination)} at ${ship.speed_kn} knots</p>
+          </div>`;
+
+        L.circleMarker([ship.lat, ship.lon], {
+          ...STYLE[ship.status],
+          radius: RADIUS[ship.size_class] || 7,
+        })
+          .bindPopup(popup)
+          .addTo(map);
+      });
+    })
+    .catch(() => {
+      document.getElementById("updated").textContent =
+        "Couldn't load tankers.json. Is the local server running? (see README)";
+    });
+</script>
+</body>
+</html>

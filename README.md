@@ -62,6 +62,8 @@ python listen.py
 
 It listens for 10 minutes (each ship sends its details roughly every 6 minutes) and prints every tanker it hears.
 
+python -m http.server 8000   # then open http://localhost:8000/map.html
+
 ## Data
 
 Ship data from [aisstream.io](https://aisstream.io) (free, in beta). Coverage comes mostly from coastal receivers, so ships far out at sea may be missing.
