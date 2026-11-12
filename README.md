@@ -29,9 +29,9 @@ A full tanker sits lower in the water than an empty one. Counting full tankers m
 ## Status
 
 - [x] Connect to the live feed and list tankers in the English Channel (`listen.py`)
-- [ ] Add live positions, size and gas filters, % full
-- [ ] Save `tankers.json` snapshots on a timer (GitHub Actions)
-- [ ] Map page
+- [x] Add live positions, size and gas filters, % full
+- [x] Save `tankers.json` snapshots on a timer (GitHub Actions)
+- [x] Map page
 - [ ] Weekly count of full tankers vs the oil price
 
 ## Things I've learned from the data
