@@ -74,7 +74,7 @@
   }).addTo(map);
 
   // 2. Fetch the snapshot the Python script saved
-  fetch("tankers.json")
+  fetch("tankers.json", { cache: "no-store" })   // always get the newest snapshot
     .then((response) => response.json())
     .then((data) => {
       // "English Channel · updated 12 Nov, 07:30 · 2 crude-size tankers"
@@ -89,10 +89,14 @@
       document.getElementById("n-empty").textContent = data.counts.empty;
       document.getElementById("n-unsure").textContent = data.counts.unsure;
 
-      // Dashed box showing the patch of sea we listen to, and zoom to fit it
-      const box = [[49.0, -6.0], [51.5, 2.0]];
-      L.rectangle(box, { color: "#23573F", weight: 1, fill: false, dashArray: "4 4" }).addTo(map);
-      map.fitBounds(box);
+      // Draw each listening box, then zoom so all of them fit
+      const boxes = data.boxes || [[[49.0, -6.0], [51.5, 2.0]]];   // older files had no boxes
+      const allCorners = [];
+      boxes.forEach((box) => {
+        L.rectangle(box, { color: "#23573F", weight: 1, fill: false, dashArray: "4 4" }).addTo(map);
+        allCorners.push(...box);
+      });
+      map.fitBounds(allCorners);
 
       // 4. One dot per ship, with a pop-up card
       data.ships.forEach((ship) => {

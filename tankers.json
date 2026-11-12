@@ -1,26 +1,108 @@
 {
-  "updated_utc": "2026-11-12T07:50:36+00:00",
-  "area": "English Channel",
+  "updated_utc": "2026-11-12T08:14:26+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
   "counts": {
     "full": 3,
-    "empty": 0,
-    "unsure": 0
+    "empty": 1,
+    "unsure": 3
   },
   "ships": [
     {
-      "mmsi": 273124530,
-      "name": "GARNIZON",
-      "size_class": "Suezmax",
-      "length_m": 274,
-      "draught_m": 14.7,
-      "full_draught_m": 16.5,
-      "pct_full": 89,
+      "mmsi": 636019142,
+      "name": "SOHO SQUARE",
+      "size_class": "Aframax",
+      "length_m": 249,
+      "draught_m": 14.5,
+      "full_draught_m": 14.5,
+      "pct_full": 100,
       "status": "full",
-      "destination": "PORT SAID",
-      "lat": 50.6621,
-      "lon": 0.83112,
-      "speed_kn": 13.4,
-      "last_seen_utc": "2026-11-12 07:50:21.315553118 +0000 UTC"
+      "destination": "ROTTERDAM",
+      "lat": 51.967705,
+      "lon": 4.0739399999999995,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-12 08:09:15.121169098 +0000 UTC"
+    },
+    {
+      "mmsi": 563216700,
+      "name": "TORM GEMMA",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 11.5,
+      "full_draught_m": 14.5,
+      "pct_full": 79,
+      "status": "unsure",
+      "destination": "DEHAM",
+      "lat": 51.927505,
+      "lon": 4.206528333333333,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-12 08:09:52.549211455 +0000 UTC"
+    },
+    {
+      "mmsi": 249997000,
+      "name": "KYRAKATINGO",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 8.6,
+      "full_draught_m": 14.5,
+      "pct_full": 59,
+      "status": "empty",
+      "destination": "GBTEE",
+      "lat": 51.99503166666667,
+      "lon": 4.031218333333333,
+      "speed_kn": 12.3,
+      "last_seen_utc": "2026-11-12 08:12:24.891932976 +0000 UTC"
+    },
+    {
+      "mmsi": 249430000,
+      "name": "BEAUFORT",
+      "size_class": "Aframax",
+      "length_m": 205,
+      "draught_m": 8.7,
+      "full_draught_m": 14.5,
+      "pct_full": 60,
+      "status": "unsure",
+      "destination": "DEBRB",
+      "lat": 51.40723833333333,
+      "lon": 3.339071666666667,
+      "speed_kn": 12.3,
+      "last_seen_utc": "2026-11-12 08:12:32.530998523 +0000 UTC"
+    },
+    {
+      "mmsi": 232012087,
+      "name": "VS PROMISE",
+      "size_class": "Aframax",
+      "length_m": 228,
+      "draught_m": 9.9,
+      "full_draught_m": 14.5,
+      "pct_full": 68,
+      "status": "unsure",
+      "destination": "NLRTM",
+      "lat": 51.917183333333334,
+      "lon": 4.2063,
+      "speed_kn": 0.1,
+      "last_seen_utc": "2026-11-12 08:12:26.773300044 +0000 UTC"
     },
     {
       "mmsi": 219029080,
@@ -32,25 +114,25 @@
       "pct_full": 97,
       "status": "full",
       "destination": "FRLEH",
-      "lat": 49.468698333333336,
-      "lon": 0.15378,
-      "speed_kn": 0.1,
-      "last_seen_utc": "2026-11-12 07:43:50.797709304 +0000 UTC"
+      "lat": 49.46872,
+      "lon": 0.15377333333333335,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-12 08:04:50.768639098 +0000 UTC"
     },
     {
-      "mmsi": 563299500,
-      "name": "UNITY VENTURE",
+      "mmsi": 235103057,
+      "name": "INGRID KNUTSEN",
       "size_class": "Aframax",
-      "length_m": 237,
-      "draught_m": 13.4,
+      "length_m": 257,
+      "draught_m": 13,
       "full_draught_m": 14.5,
-      "pct_full": 92,
+      "pct_full": 90,
       "status": "full",
-      "destination": "GBFAW",
-      "lat": 50.837196666666664,
-      "lon": -1.3261,
+      "destination": "?? ???",
+      "lat": 51.953406666666666,
+      "lon": 4.138636666666667,
       "speed_kn": 0,
-      "last_seen_utc": "2026-11-12 07:42:35.770813413 +0000 UTC"
+      "last_seen_utc": "2026-11-12 08:14:02.462834359 +0000 UTC"
     }
   ]
 }

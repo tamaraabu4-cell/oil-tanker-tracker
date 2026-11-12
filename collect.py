@@ -11,8 +11,11 @@ load_dotenv()
 API_KEY = os.environ["AISSTREAM_API_KEY"]
 
 URL = "wss://stream.aisstream.io/v0/stream"
-AREA_NAME = "English Channel"
-AREA_BOX = [[49.0, -6.0], [51.5, 2.0]]
+AREA_NAME = "English Channel & southern North Sea"
+AREA_BOXES = [
+    [[49.0, -6.0], [51.5, 2.0]],    # English Channel
+    [[51.0, 1.5], [53.5, 5.0]],     # Dover Strait up to Rotterdam & Amsterdam
+]
 LISTEN_SECONDS = 600
 OUTPUT_FILE = "tankers.json"
 
@@ -121,6 +124,7 @@ def build_snapshot(positions, id_cards):
     return {
         "updated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "area": AREA_NAME,
+        "boxes": AREA_BOXES,
         "counts": counts,
         "ships": ships,
     }
@@ -133,7 +137,7 @@ async def main():
     async with websockets.connect(URL) as ws:
         subscription = {
             "APIKey": API_KEY,
-            "BoundingBoxes": [AREA_BOX],
+            "BoundingBoxes": AREA_BOXES,
             "FilterMessageTypes": ["PositionReport", "ShipStaticData"],
         }
         await ws.send(json.dumps(subscription))
