@@ -1,0 +1,138 @@
+{
+  "updated_utc": "2026-11-13T17:24:24+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 1,
+    "empty": 3,
+    "unsure": 3
+  },
+  "ships": [
+    {
+      "mmsi": 525501972,
+      "name": "JENGGALA NASSIM",
+      "size_class": "Suezmax",
+      "length_m": 275,
+      "draught_m": 9,
+      "full_draught_m": 16.5,
+      "pct_full": 55,
+      "status": "empty",
+      "destination": "NLVLI",
+      "lat": 51.40573333333334,
+      "lon": 3.7313166666666664,
+      "speed_kn": 2.3,
+      "last_seen_utc": "2026-11-13 17:20:49.174168135 +0000 UTC"
+    },
+    {
+      "mmsi": 636012767,
+      "name": "ASOPOS",
+      "size_class": "Aframax",
+      "length_m": 213,
+      "draught_m": 12.3,
+      "full_draught_m": 14.5,
+      "pct_full": 85,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.89788333333333,
+      "lon": 4.352133333333333,
+      "speed_kn": 1.8,
+      "last_seen_utc": "2026-11-13 17:17:34.056948628 +0000 UTC"
+    },
+    {
+      "mmsi": 636019297,
+      "name": "ELANDRA SOUND",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 9.2,
+      "full_draught_m": 14.5,
+      "pct_full": 63,
+      "status": "unsure",
+      "destination": "DZSKI",
+      "lat": 51.921730000000004,
+      "lon": 4.199941666666667,
+      "speed_kn": 1.1,
+      "last_seen_utc": "2026-11-13 17:19:41.610037902 +0000 UTC"
+    },
+    {
+      "mmsi": 241368000,
+      "name": "SEA TOPAZ",
+      "size_class": "Suezmax",
+      "length_m": 270,
+      "draught_m": 9.6,
+      "full_draught_m": 16.5,
+      "pct_full": 58,
+      "status": "empty",
+      "destination": "GUYANA",
+      "lat": 50.502696666666665,
+      "lon": -0.13234333333333334,
+      "speed_kn": 15.4,
+      "last_seen_utc": "2026-11-13 17:23:54.71991454 +0000 UTC"
+    },
+    {
+      "mmsi": 311000631,
+      "name": "NIKOLAY YEVGENOV",
+      "size_class": "Suezmax",
+      "length_m": 299,
+      "draught_m": 11.8,
+      "full_draught_m": 16.5,
+      "pct_full": 72,
+      "status": "unsure",
+      "destination": "BEZEE",
+      "lat": 51.35290666666666,
+      "lon": 3.215305,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-13 17:19:07.974006896 +0000 UTC"
+    },
+    {
+      "mmsi": 636023417,
+      "name": "VENTURE BAYOU",
+      "size_class": "Suezmax",
+      "length_m": 290,
+      "draught_m": 11.8,
+      "full_draught_m": 16.5,
+      "pct_full": 72,
+      "status": "unsure",
+      "destination": "FOR ORDERS",
+      "lat": 51.352868333333326,
+      "lon": 3.2123216666666665,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-13 17:15:51.59782242 +0000 UTC"
+    },
+    {
+      "mmsi": 538011978,
+      "name": "SEA PHOENIX",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 9.5,
+      "full_draught_m": 16.5,
+      "pct_full": 58,
+      "status": "empty",
+      "destination": "GIGIB",
+      "lat": 50.532105,
+      "lon": 0.16984000000000002,
+      "speed_kn": 16.1,
+      "last_seen_utc": "2026-11-13 17:23:15.117852464 +0000 UTC"
+    }
+  ]
+}
