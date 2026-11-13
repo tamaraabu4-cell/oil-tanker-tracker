@@ -1,0 +1,153 @@
+{
+  "updated_utc": "2026-11-13T06:58:43+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 4,
+    "empty": 2,
+    "unsure": 2
+  },
+  "ships": [
+    {
+      "mmsi": 636013156,
+      "name": "EVRIDIKI",
+      "size_class": "Suezmax",
+      "length_m": 273,
+      "draught_m": 15.3,
+      "full_draught_m": 16.5,
+      "pct_full": 93,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.96225166666667,
+      "lon": 4.080163333333333,
+      "speed_kn": 2.7,
+      "last_seen_utc": "2026-11-13 06:58:30.035958808 +0000 UTC"
+    },
+    {
+      "mmsi": 563299500,
+      "name": "UNITY VENTURE",
+      "size_class": "Aframax",
+      "length_m": 237,
+      "draught_m": 13.4,
+      "full_draught_m": 14.5,
+      "pct_full": 92,
+      "status": "full",
+      "destination": "GBFAW",
+      "lat": 50.83719166666666,
+      "lon": -1.3261399999999999,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-13 06:57:35.390797048 +0000 UTC"
+    },
+    {
+      "mmsi": 249279000,
+      "name": "YPAPANTI",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 8,
+      "full_draught_m": 14.5,
+      "pct_full": 55,
+      "status": "empty",
+      "destination": "NLVLI",
+      "lat": 51.39888,
+      "lon": 3.750105,
+      "speed_kn": 0.1,
+      "last_seen_utc": "2026-11-13 06:55:58.423240243 +0000 UTC"
+    },
+    {
+      "mmsi": 353727000,
+      "name": "LILAC PROMENADE",
+      "size_class": "Aframax",
+      "length_m": 230,
+      "draught_m": 11.1,
+      "full_draught_m": 14.5,
+      "pct_full": 77,
+      "status": "unsure",
+      "destination": "NLVLI",
+      "lat": 51.46481333333334,
+      "lon": 3.7132283333333334,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-13 06:53:54.178819548 +0000 UTC"
+    },
+    {
+      "mmsi": 235108528,
+      "name": "KMARIN RESOURCE",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 12.5,
+      "full_draught_m": 14.5,
+      "pct_full": 86,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.944743333333335,
+      "lon": 4.160475,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-13 06:54:29.859275367 +0000 UTC"
+    },
+    {
+      "mmsi": 636023417,
+      "name": "VENTURE BAYOU",
+      "size_class": "Suezmax",
+      "length_m": 290,
+      "draught_m": 11.8,
+      "full_draught_m": 16.5,
+      "pct_full": 72,
+      "status": "unsure",
+      "destination": "FOR ORDERS",
+      "lat": 51.352893333333334,
+      "lon": 3.2123,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-13 06:54:48.747865001 +0000 UTC"
+    },
+    {
+      "mmsi": 636012767,
+      "name": "ASOPOS",
+      "size_class": "Aframax",
+      "length_m": 213,
+      "draught_m": 12,
+      "full_draught_m": 14.5,
+      "pct_full": 83,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.93065,
+      "lon": 3.51485,
+      "speed_kn": 5.6,
+      "last_seen_utc": "2026-11-13 06:55:07.331895485 +0000 UTC"
+    },
+    {
+      "mmsi": 636019142,
+      "name": "SOHO SQUARE",
+      "size_class": "Aframax",
+      "length_m": 249,
+      "draught_m": 8,
+      "full_draught_m": 14.5,
+      "pct_full": 55,
+      "status": "empty",
+      "destination": "TBA",
+      "lat": 51.927474999999994,
+      "lon": 4.206366666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-13 06:54:45.702465244 +0000 UTC"
+    }
+  ]
+}
