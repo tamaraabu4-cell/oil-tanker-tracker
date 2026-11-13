@@ -1,0 +1,108 @@
+{
+  "updated_utc": "2026-11-13T23:46:13+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 2,
+    "empty": 2,
+    "unsure": 1
+  },
+  "ships": [
+    {
+      "mmsi": 563216100,
+      "name": "TORM GWENDOLYN",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.1,
+      "full_draught_m": 14.5,
+      "pct_full": 90,
+      "status": "full",
+      "destination": "GBFAW",
+      "lat": 50.77508666666667,
+      "lon": -1.3011066666666666,
+      "speed_kn": 10,
+      "last_seen_utc": "2026-11-13 23:43:52.294180643 +0000 UTC"
+    },
+    {
+      "mmsi": 613411302,
+      "name": "SMYRTOS",
+      "size_class": "Aframax",
+      "length_m": 244,
+      "draught_m": 14.6,
+      "full_draught_m": 14.5,
+      "pct_full": 101,
+      "status": "full",
+      "destination": "EGPSD",
+      "lat": 50.566021666666664,
+      "lon": -2.3827183333333335,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-13 23:37:03.126185137 +0000 UTC"
+    },
+    {
+      "mmsi": 636019142,
+      "name": "SOHO SQUARE",
+      "size_class": "Aframax",
+      "length_m": 249,
+      "draught_m": 8,
+      "full_draught_m": 14.5,
+      "pct_full": 55,
+      "status": "empty",
+      "destination": "CAWHH",
+      "lat": 52.00961333333333,
+      "lon": 4.0001066666666665,
+      "speed_kn": 14.5,
+      "last_seen_utc": "2026-11-13 23:45:37.590425543 +0000 UTC"
+    },
+    {
+      "mmsi": 636026037,
+      "name": "LUMI AURORA",
+      "size_class": "Aframax",
+      "length_m": 230,
+      "draught_m": 8.2,
+      "full_draught_m": 14.5,
+      "pct_full": 57,
+      "status": "empty",
+      "destination": "USHOU",
+      "lat": 50.93673666666667,
+      "lon": 1.2192966666666665,
+      "speed_kn": 16,
+      "last_seen_utc": "2026-11-13 23:45:42.026043374 +0000 UTC"
+    },
+    {
+      "mmsi": 538010699,
+      "name": "ENERGY ENDURANCE",
+      "size_class": "Suezmax",
+      "length_m": 290,
+      "draught_m": 11,
+      "full_draught_m": 16.5,
+      "pct_full": 67,
+      "status": "unsure",
+      "destination": "EU FOR ORDERS",
+      "lat": 50.22318666666667,
+      "lon": -0.454555,
+      "speed_kn": 13.7,
+      "last_seen_utc": "2026-11-13 23:44:06.386583987 +0000 UTC"
+    }
+  ]
+}
