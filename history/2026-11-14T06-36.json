@@ -1,0 +1,108 @@
+{
+  "updated_utc": "2026-11-14T06:36:17+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 2,
+    "empty": 1,
+    "unsure": 2
+  },
+  "ships": [
+    {
+      "mmsi": 525501972,
+      "name": "JENGGALA NASSIM",
+      "size_class": "Suezmax",
+      "length_m": 275,
+      "draught_m": 9.1,
+      "full_draught_m": 16.5,
+      "pct_full": 55,
+      "status": "empty",
+      "destination": "GUYANA",
+      "lat": 51.40445,
+      "lon": 3.7346833333333334,
+      "speed_kn": 0.1,
+      "last_seen_utc": "2026-11-14 06:28:22.903867411 +0000 UTC"
+    },
+    {
+      "mmsi": 248125000,
+      "name": "SEARACER",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 15.5,
+      "full_draught_m": 16.5,
+      "pct_full": 94,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.97256,
+      "lon": 3.9892933333333334,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-14 06:31:03.068623713 +0000 UTC"
+    },
+    {
+      "mmsi": 538005384,
+      "name": "STI ELYSEES",
+      "size_class": "Aframax",
+      "length_m": 256,
+      "draught_m": 14.8,
+      "full_draught_m": 14.5,
+      "pct_full": 102,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 50.28368833333333,
+      "lon": -0.12197,
+      "speed_kn": 10.7,
+      "last_seen_utc": "2026-11-14 06:33:40.935405069 +0000 UTC"
+    },
+    {
+      "mmsi": 311000631,
+      "name": "NIKOLAY YEVGENOV",
+      "size_class": "Suezmax",
+      "length_m": 299,
+      "draught_m": 10.9,
+      "full_draught_m": 16.5,
+      "pct_full": 66,
+      "status": "unsure",
+      "destination": "FOR ORDERS",
+      "lat": 51.383608333333335,
+      "lon": 2.9381583333333334,
+      "speed_kn": 13.4,
+      "last_seen_utc": "2026-11-14 06:29:25.884439284 +0000 UTC"
+    },
+    {
+      "mmsi": 636019297,
+      "name": "ELANDRA SOUND",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 9.2,
+      "full_draught_m": 14.5,
+      "pct_full": 63,
+      "status": "unsure",
+      "destination": "DZSKI",
+      "lat": 50.79798,
+      "lon": 1.0060033333333334,
+      "speed_kn": 13.4,
+      "last_seen_utc": "2026-11-14 06:30:47.091217299 +0000 UTC"
+    }
+  ]
+}
