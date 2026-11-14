@@ -1,0 +1,138 @@
+{
+  "updated_utc": "2026-11-14T16:00:36+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 4,
+    "empty": 2,
+    "unsure": 1
+  },
+  "ships": [
+    {
+      "mmsi": 353727000,
+      "name": "LILAC PROMENADE",
+      "size_class": "Aframax",
+      "length_m": 230,
+      "draught_m": 11.1,
+      "full_draught_m": 14.5,
+      "pct_full": 77,
+      "status": "unsure",
+      "destination": "NLVLI",
+      "lat": 51.46480333333333,
+      "lon": 3.7132416666666668,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-14 15:54:08.236236513 +0000 UTC"
+    },
+    {
+      "mmsi": 636013156,
+      "name": "EVRIDIKI",
+      "size_class": "Suezmax",
+      "length_m": 273,
+      "draught_m": 15.3,
+      "full_draught_m": 16.5,
+      "pct_full": 93,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.967735,
+      "lon": 4.073655,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-14 15:57:28.632289851 +0000 UTC"
+    },
+    {
+      "mmsi": 563216100,
+      "name": "TORM GWENDOLYN",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.1,
+      "full_draught_m": 14.5,
+      "pct_full": 90,
+      "status": "full",
+      "destination": "GBFAW",
+      "lat": 50.837175,
+      "lon": -1.3262666666666665,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-14 15:58:20.67215836 +0000 UTC"
+    },
+    {
+      "mmsi": 525501972,
+      "name": "JENGGALA NASSIM",
+      "size_class": "Suezmax",
+      "length_m": 275,
+      "draught_m": 9.1,
+      "full_draught_m": 16.5,
+      "pct_full": 55,
+      "status": "empty",
+      "destination": "GUYANA",
+      "lat": 51.40723333333334,
+      "lon": 3.063416666666667,
+      "speed_kn": 11.7,
+      "last_seen_utc": "2026-11-14 15:50:41.302983028 +0000 UTC"
+    },
+    {
+      "mmsi": 636012767,
+      "name": "ASOPOS",
+      "size_class": "Aframax",
+      "length_m": 213,
+      "draught_m": 12.3,
+      "full_draught_m": 14.5,
+      "pct_full": 85,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.897166666666664,
+      "lon": 4.3583,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-14 15:55:24.478921361 +0000 UTC"
+    },
+    {
+      "mmsi": 219061000,
+      "name": "SEAPEAK MERIDIAN",
+      "size_class": "Suezmax",
+      "length_m": 286,
+      "draught_m": 9.6,
+      "full_draught_m": 16.5,
+      "pct_full": 58,
+      "status": "empty",
+      "destination": "FOR ORDER",
+      "lat": 50.250835,
+      "lon": -0.3575483333333333,
+      "speed_kn": 3.6,
+      "last_seen_utc": "2026-11-14 16:00:29.457947927 +0000 UTC"
+    },
+    {
+      "mmsi": 538004508,
+      "name": "ALTAI",
+      "size_class": "Aframax",
+      "length_m": 249,
+      "draught_m": 12.7,
+      "full_draught_m": 14.5,
+      "pct_full": 88,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 52.012161666666664,
+      "lon": 3.860195,
+      "speed_kn": 8,
+      "last_seen_utc": "2026-11-14 15:50:57.049373085 +0000 UTC"
+    }
+  ]
+}
