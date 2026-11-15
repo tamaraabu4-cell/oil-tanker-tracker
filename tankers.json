@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-15T16:33:06+00:00",
+  "updated_utc": "2026-11-15T22:59:49+00:00",
   "area": "English Channel & southern North Sea",
   "boxes": [
     [
@@ -24,9 +24,9 @@
     ]
   ],
   "counts": {
-    "full": 5,
-    "empty": 3,
-    "unsure": 1
+    "full": 3,
+    "empty": 1,
+    "unsure": 0
   },
   "ships": [
     {
@@ -38,131 +38,56 @@
       "full_draught_m": 14.5,
       "pct_full": 59,
       "status": "empty",
-      "destination": "ROTTERDAM",
-      "lat": 51.975249999999996,
-      "lon": 3.9906300000000003,
+      "destination": "NLRTM-BOTLEK",
+      "lat": 51.88943166666666,
+      "lon": 4.290835,
       "speed_kn": 0,
-      "last_seen_utc": "2026-11-15 16:32:11.395770158 +0000 UTC"
+      "last_seen_utc": "2026-11-15 22:51:08.364688276 +0000 UTC"
     },
     {
-      "mmsi": 538010699,
-      "name": "ENERGY ENDURANCE",
-      "size_class": "Suezmax",
-      "length_m": 290,
-      "draught_m": 11,
-      "full_draught_m": 16.5,
-      "pct_full": 67,
-      "status": "unsure",
-      "destination": "EU FOR ORDERS",
-      "lat": 51.96755666666666,
-      "lon": 4.079198333333333,
-      "speed_kn": 0,
-      "last_seen_utc": "2026-11-15 16:31:03.798153214 +0000 UTC"
-    },
-    {
-      "mmsi": 538004508,
-      "name": "ALTAI",
+      "mmsi": 355600000,
+      "name": "KARAVAS",
       "size_class": "Aframax",
-      "length_m": 249,
-      "draught_m": 8,
-      "full_draught_m": 14.5,
-      "pct_full": 55,
-      "status": "empty",
-      "destination": "FOR ORDERS",
-      "lat": 51.92124333333334,
-      "lon": 4.201863333333333,
-      "speed_kn": 0,
-      "last_seen_utc": "2026-11-15 16:27:39.219553538 +0000 UTC"
-    },
-    {
-      "mmsi": 255806024,
-      "name": "MONTE URQUIOLA",
-      "size_class": "Suezmax",
-      "length_m": 274,
-      "draught_m": 15.5,
-      "full_draught_m": 16.5,
-      "pct_full": 94,
-      "status": "full",
-      "destination": "ROTTERDAM FOR ORDERS",
-      "lat": 50.47009833333333,
-      "lon": 0.8674066666666668,
-      "speed_kn": 13.4,
-      "last_seen_utc": "2026-11-15 16:31:34.670357668 +0000 UTC"
-    },
-    {
-      "mmsi": 636012767,
-      "name": "ASOPOS",
-      "size_class": "Aframax",
-      "length_m": 213,
+      "length_m": 244,
       "draught_m": 12.3,
       "full_draught_m": 14.5,
       "pct_full": 85,
       "status": "full",
       "destination": "NLRTM",
-      "lat": 51.897166666666664,
-      "lon": 4.358383333333333,
+      "lat": 51.968615,
+      "lon": 4.069561666666667,
       "speed_kn": 0,
-      "last_seen_utc": "2026-11-15 16:25:24.863448481 +0000 UTC"
+      "last_seen_utc": "2026-11-15 22:57:53.522708074 +0000 UTC"
     },
     {
-      "mmsi": 311001298,
-      "name": "PENELOPE",
+      "mmsi": 563216100,
+      "name": "TORM GWENDOLYN",
       "size_class": "Aframax",
-      "length_m": 244,
-      "draught_m": 13.5,
+      "length_m": 250,
+      "draught_m": 13.1,
       "full_draught_m": 14.5,
-      "pct_full": 93,
+      "pct_full": 90,
       "status": "full",
-      "destination": "NLRTM",
-      "lat": 50.30849,
-      "lon": 0.029371666666666667,
-      "speed_kn": 9.6,
-      "last_seen_utc": "2026-11-15 16:28:24.663260321 +0000 UTC"
-    },
-    {
-      "mmsi": 311000251,
-      "name": "COMET",
-      "size_class": "Aframax",
-      "length_m": 225,
-      "draught_m": 11.9,
-      "full_draught_m": 14.5,
-      "pct_full": 82,
-      "status": "full",
-      "destination": "NLTNZ",
-      "lat": 51.34030333333333,
-      "lon": 3.766365,
+      "destination": "GBFAW",
+      "lat": 50.83719,
+      "lon": -1.3262633333333333,
       "speed_kn": 0,
-      "last_seen_utc": "2026-11-15 16:29:10.42836418 +0000 UTC"
+      "last_seen_utc": "2026-11-15 22:52:32.77016103 +0000 UTC"
     },
     {
-      "mmsi": 636024871,
-      "name": "CIELO DI CAGLIARI",
+      "mmsi": 352006655,
+      "name": "ASP LUCY",
       "size_class": "Aframax",
-      "length_m": 228,
-      "draught_m": 8.4,
+      "length_m": 250,
+      "draught_m": 14.7,
       "full_draught_m": 14.5,
-      "pct_full": 58,
-      "status": "empty",
-      "destination": "FOR ORDERS",
-      "lat": 51.477579999999996,
-      "lon": 0.868295,
-      "speed_kn": 13.2,
-      "last_seen_utc": "2026-11-15 16:31:32.469136934 +0000 UTC"
-    },
-    {
-      "mmsi": 636018848,
-      "name": "VEGA STAR",
-      "size_class": "Aframax",
-      "length_m": 230,
-      "draught_m": 11.7,
-      "full_draught_m": 14.5,
-      "pct_full": 81,
+      "pct_full": 101,
       "status": "full",
-      "destination": "BEANR",
-      "lat": 51.34643166666667,
-      "lon": 4.283963333333333,
-      "speed_kn": 1.8,
-      "last_seen_utc": "2026-11-15 16:32:36.006705873 +0000 UTC"
+      "destination": "ROTTERDAM",
+      "lat": 50.332753333333336,
+      "lon": 0.15293833333333332,
+      "speed_kn": 13.5,
+      "last_seen_utc": "2026-11-15 22:54:44.678984783 +0000 UTC"
     }
   ]
 }

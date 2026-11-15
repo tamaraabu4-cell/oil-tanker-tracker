@@ -1,0 +1,93 @@
+{
+  "updated_utc": "2026-11-15T22:59:49+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 3,
+    "empty": 1,
+    "unsure": 0
+  },
+  "ships": [
+    {
+      "mmsi": 538009203,
+      "name": "PACIFIC GARNET",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 8.5,
+      "full_draught_m": 14.5,
+      "pct_full": 59,
+      "status": "empty",
+      "destination": "NLRTM-BOTLEK",
+      "lat": 51.88943166666666,
+      "lon": 4.290835,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-15 22:51:08.364688276 +0000 UTC"
+    },
+    {
+      "mmsi": 355600000,
+      "name": "KARAVAS",
+      "size_class": "Aframax",
+      "length_m": 244,
+      "draught_m": 12.3,
+      "full_draught_m": 14.5,
+      "pct_full": 85,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.968615,
+      "lon": 4.069561666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-15 22:57:53.522708074 +0000 UTC"
+    },
+    {
+      "mmsi": 563216100,
+      "name": "TORM GWENDOLYN",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.1,
+      "full_draught_m": 14.5,
+      "pct_full": 90,
+      "status": "full",
+      "destination": "GBFAW",
+      "lat": 50.83719,
+      "lon": -1.3262633333333333,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-15 22:52:32.77016103 +0000 UTC"
+    },
+    {
+      "mmsi": 352006655,
+      "name": "ASP LUCY",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 14.7,
+      "full_draught_m": 14.5,
+      "pct_full": 101,
+      "status": "full",
+      "destination": "ROTTERDAM",
+      "lat": 50.332753333333336,
+      "lon": 0.15293833333333332,
+      "speed_kn": 13.5,
+      "last_seen_utc": "2026-11-15 22:54:44.678984783 +0000 UTC"
+    }
+  ]
+}
