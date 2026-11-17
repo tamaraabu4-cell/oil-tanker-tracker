@@ -2,7 +2,7 @@ name: Collect tankers
 
 on:
   schedule:
-    - cron: "17 */3 * * *"      # every 3 hours, at 17 minutes past (UK time in winter)
+    - cron: "23 * * * *"        # every hour at 23 minutes past; GitHub drops some, so ask often
   workflow_dispatch:            # adds a "Run workflow" button for testing
 
 permissions:
