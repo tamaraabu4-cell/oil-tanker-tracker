@@ -130,10 +130,8 @@ def build_snapshot(positions, id_cards):
     }
 
 
-async def main():
-    positions = {}     # notebook 1: where each ship is
-    id_cards = {}      # notebook 2: what each ship is
-
+async def listen_once(positions, id_cards, stop_at):
+    """One phone call to aisstream. Returns when time is up; raises if the line drops."""
     async with websockets.connect(URL) as ws:
         subscription = {
             "APIKey": API_KEY,
@@ -141,20 +139,39 @@ async def main():
             "FilterMessageTypes": ["PositionReport", "ShipStaticData"],
         }
         await ws.send(json.dumps(subscription))
-        print(f"Listening to the {AREA_NAME} for {LISTEN_SECONDS // 60} minutes...")
 
-        stop_at = time.monotonic() + LISTEN_SECONDS
         while time.monotonic() < stop_at:
             try:
                 raw = await asyncio.wait_for(ws.recv(), timeout=30)
             except asyncio.TimeoutError:
-                continue
+                continue                          # quiet patch, keep waiting
 
             msg = json.loads(raw)
-            if "error" in msg:
+            if "error" in msg:                    # e.g. a bad API key: give up properly
                 raise SystemExit(f"aisstream said: {msg['error']}")
 
-            handle_message(msg, positions, id_cards)
+            try:
+                handle_message(msg, positions, id_cards)
+            except (KeyError, TypeError, AttributeError):
+                continue                          # a damaged message: skip it
+
+
+async def main():
+    positions = {}
+    id_cards = {}
+    stop_at = time.monotonic() + LISTEN_SECONDS
+    print(f"Listening to the {AREA_NAME} for {LISTEN_SECONDS // 60} minutes...")
+
+    # Keep redialling until the time is up; the two notebooks survive each hang-up
+    while time.monotonic() < stop_at:
+        try:
+            await listen_once(positions, id_cards, stop_at)
+        except (websockets.exceptions.WebSocketException, OSError) as problem:
+            print(f"Line dropped ({problem}). Reconnecting in 5 seconds...")
+            await asyncio.sleep(5)
+
+    if not id_cards:
+        raise SystemExit("Heard nothing at all, so not saving. Is aisstream down?")
 
     snapshot = build_snapshot(positions, id_cards)
 
@@ -175,7 +192,4 @@ async def main():
         pct = f"{s['pct_full']}%" if s["pct_full"] is not None else "?"
         print(f"{s['name']:<24} {s['size_class']:<8} {pct:>5}  {s['status']:<7} -> {s['destination']}")
     print(f"\nSaved to {OUTPUT_FILE}")
-
-
-if __name__ == "__main__":
-    asyncio.run(main())
+    
