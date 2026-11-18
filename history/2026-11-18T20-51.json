@@ -1,0 +1,153 @@
+{
+  "updated_utc": "2026-11-18T20:51:57+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 4,
+    "empty": 2,
+    "unsure": 2
+  },
+  "ships": [
+    {
+      "mmsi": 477043500,
+      "name": "VICTORY VENTURE",
+      "size_class": "Aframax",
+      "length_m": 247,
+      "draught_m": 12,
+      "full_draught_m": 14.5,
+      "pct_full": 83,
+      "status": "full",
+      "destination": "HOUSTON USA",
+      "lat": 51.359521666666666,
+      "lon": 3.8980683333333332,
+      "speed_kn": 10.7,
+      "last_seen_utc": "2026-11-18 20:49:41.834130669 +0000 UTC"
+    },
+    {
+      "mmsi": 311000251,
+      "name": "COMET",
+      "size_class": "Aframax",
+      "length_m": 225,
+      "draught_m": 8,
+      "full_draught_m": 14.5,
+      "pct_full": 55,
+      "status": "empty",
+      "destination": "USHOU",
+      "lat": 50.45604,
+      "lon": -3.3796633333333332,
+      "speed_kn": 1.1,
+      "last_seen_utc": "2026-11-18 20:51:24.053720516 +0000 UTC"
+    },
+    {
+      "mmsi": 211129120,
+      "name": "SEADEVIL",
+      "size_class": "Aframax",
+      "length_m": 200,
+      "draught_m": 11.8,
+      "full_draught_m": 14.5,
+      "pct_full": 81,
+      "status": "full",
+      "destination": "DEHAM",
+      "lat": 51.971201666666666,
+      "lon": 4.132453333333333,
+      "speed_kn": 8.8,
+      "last_seen_utc": "2026-11-18 20:48:24.826680637 +0000 UTC"
+    },
+    {
+      "mmsi": 563216700,
+      "name": "TORM GEMMA",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 9,
+      "full_draught_m": 14.5,
+      "pct_full": 62,
+      "status": "unsure",
+      "destination": "USHOU",
+      "lat": 50.535848333333334,
+      "lon": 0.2586133333333333,
+      "speed_kn": 13.3,
+      "last_seen_utc": "2026-11-18 20:46:16.858885104 +0000 UTC"
+    },
+    {
+      "mmsi": 636020693,
+      "name": "ATLANTIC PRINCESS",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 9.5,
+      "full_draught_m": 16.5,
+      "pct_full": 58,
+      "status": "empty",
+      "destination": "NLVLI",
+      "lat": 53.452715,
+      "lon": 3.5353849999999998,
+      "speed_kn": 8.6,
+      "last_seen_utc": "2026-11-18 20:49:35.247875631 +0000 UTC"
+    },
+    {
+      "mmsi": 538006077,
+      "name": "STI SOLACE",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.9,
+      "full_draught_m": 14.5,
+      "pct_full": 96,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.93009,
+      "lon": 4.196828333333333,
+      "speed_kn": 3.8,
+      "last_seen_utc": "2026-11-18 20:51:39.057880898 +0000 UTC"
+    },
+    {
+      "mmsi": 636024460,
+      "name": "VENUS MOON",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 10,
+      "full_draught_m": 16.5,
+      "pct_full": 61,
+      "status": "unsure",
+      "destination": "NLRTM",
+      "lat": 51.92819,
+      "lon": 4.19784,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-18 20:45:08.02349804 +0000 UTC"
+    },
+    {
+      "mmsi": 636021311,
+      "name": "DF MYSTRAS",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.1,
+      "full_draught_m": 14.5,
+      "pct_full": 90,
+      "status": "full",
+      "destination": "FRLEH",
+      "lat": 49.607695,
+      "lon": -0.221105,
+      "speed_kn": 0.1,
+      "last_seen_utc": "2026-11-18 20:49:04.423094549 +0000 UTC"
+    }
+  ]
+}
