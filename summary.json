@@ -1,0 +1,100 @@
+[
+ {
+  "time_utc": "2026-11-12T07:50:36+00:00",
+  "area": "English Channel",
+  "full": 3,
+  "empty": 0,
+  "unsure": 0
+ },
+ {
+  "time_utc": "2026-11-12T08:14:26+00:00",
+  "area": "English Channel & southern North Sea",
+  "full": 3,
+  "empty": 1,
+  "unsure": 3
+ },
+ {
+  "time_utc": "2026-11-12T17:46:56+00:00",
+  "area": "English Channel & southern North Sea",
+  "full": 2,
+  "empty": 1,
+  "unsure": 1
+ },
+ {
+  "time_utc": "2026-11-12T23:49:55+00:00",
+  "area": "English Channel & southern North Sea",
+  "full": 1,
+  "empty": 2,
+  "unsure": 0
+ },
+ {
+  "time_utc": "2026-11-13T06:58:43+00:00",
+  "area": "English Channel & southern North Sea",
+  "full": 4,
+  "empty": 2,
+  "unsure": 2
+ },
+ {
+  "time_utc": "2026-11-13T17:24:24+00:00",
+  "area": "English Channel & southern North Sea",
+  "full": 1,
+  "empty": 3,
+  "unsure": 3
+ },
+ {
+  "time_utc": "2026-11-13T23:46:13+00:00",
+  "area": "English Channel & southern North Sea",
+  "full": 2,
+  "empty": 2,
+  "unsure": 1
+ },
+ {
+  "time_utc": "2026-11-14T06:36:17+00:00",
+  "area": "English Channel & southern North Sea",
+  "full": 2,
+  "empty": 1,
+  "unsure": 2
+ },
+ {
+  "time_utc": "2026-11-14T16:00:36+00:00",
+  "area": "English Channel & southern North Sea",
+  "full": 4,
+  "empty": 2,
+  "unsure": 1
+ },
+ {
+  "time_utc": "2026-11-15T06:45:33+00:00",
+  "area": "English Channel & southern North Sea",
+  "full": 3,
+  "empty": 0,
+  "unsure": 2
+ },
+ {
+  "time_utc": "2026-11-15T16:33:06+00:00",
+  "area": "English Channel & southern North Sea",
+  "full": 5,
+  "empty": 3,
+  "unsure": 1
+ },
+ {
+  "time_utc": "2026-11-15T22:59:49+00:00",
+  "area": "English Channel & southern North Sea",
+  "full": 3,
+  "empty": 1,
+  "unsure": 0
+ },
+ {
+  "time_utc": "2026-11-16T06:42:12+00:00",
+  "area": "English Channel & southern North Sea",
+  "full": 1,
+  "empty": 2,
+  "unsure": 2
+ },
+ {
+  "time_utc": "2026-11-18T13:16:11+00:00",
+  "area": "English Channel & southern North Sea",
+  "full": 3,
+  "empty": 1,
+  "unsure": 0
+ }
+]

@@ -152,7 +152,6 @@ def write_summary():
     """One line per snapshot in history/, for the chart on the project page."""
     rows = []
     for path in sorted(glob.glob("history/*.json")):
-        write_summary()
         with open(path) as f:
             snap = json.load(f)
         rows.append({
@@ -218,6 +217,8 @@ async def main():
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H-%M")
     with open(f"history/{stamp}.json", "w") as f:
         json.dump(snapshot, f, indent=2)
+
+    write_summary()
 
     print(f"\nHeard {len(id_cards)} ships' ID cards and {len(positions)} positions.")
     print(f"Crude-size tankers with a position: {len(snapshot['ships'])}")
