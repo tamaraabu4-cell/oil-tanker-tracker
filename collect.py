@@ -1,4 +1,5 @@
 import asyncio
+import glob
 import json
 import os
 import time
@@ -144,6 +145,25 @@ def build_snapshot(positions, id_cards):
         "ships": ships,
     }
 
+SUMMARY_FILE = "summary.json"
+
+
+def write_summary():
+    """One line per snapshot in history/, for the chart on the project page."""
+    rows = []
+    for path in sorted(glob.glob("history/*.json")):
+        write_summary()
+        with open(path) as f:
+            snap = json.load(f)
+        rows.append({
+            "time_utc": snap["updated_utc"],
+            "area": snap.get("area", "English Channel"),
+            "full": snap["counts"]["full"],
+            "empty": snap["counts"]["empty"],
+            "unsure": snap["counts"]["unsure"],
+        })
+    with open(SUMMARY_FILE, "w") as f:
+        json.dump(rows, f, indent=1)
 
 async def listen_once(positions, id_cards, stop_at):
     """One phone call to aisstream. Returns when time is up; raises if the line drops."""
