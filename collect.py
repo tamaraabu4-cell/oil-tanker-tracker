@@ -35,22 +35,37 @@ def size_class(length_m):
     return "Aframax", 14.5
 
 
+# Ports crews type as names instead of codes
+CITY_CODES = {
+    "ROTTERDAM": "NLRTM", "AMSTERDAM": "NLAMS", "ANTWERP": "BEANR",
+    "LE HAVRE": "FRLEH", "FAWLEY": "GBFAW", "PORT SAID": "EGPSD",
+}
+# Placeholders that mean "not filled in"
+JUNK = {"", "TBA", "TBN", "NA", "N/A", "NONE", "UNKNOWN"}
+
+
 def clean_destination(text):
-    """Tidy crew-typed destinations: 'FR LEH' -> 'FRLEH', 'FRGLO>FRLEH' -> 'FRLEH'."""
+    """Tidy crew-typed destinations so the same port is always spelled one way."""
     text = text.strip().upper()
-    if ">" in text:                          # 'from>to' style: keep the 'to'
+    if ">" in text:                              # 'from>to': keep the 'to'
         text = text.split(">")[-1].strip()
+    if "FOR ORDER" in text:                      # 'EU FOR ORDERS', 'FOR ORDER'...
+        return "FOR ORDERS"
+    if text in CITY_CODES:                       # 'ROTTERDAM' -> 'NLRTM'
+        return CITY_CODES[text]
+    if text in JUNK or not any(ch.isalpha() for ch in text):
+        return "UNKNOWN"                         # 'TBA', '?? ???'
     squashed = text.replace(" ", "")
-    if len(squashed) == 5 and squashed.isalpha():   # looks like a port code
-        return squashed
-    return text
+    if len(squashed) >= 5 and squashed[:5].isalpha() and (len(squashed) == 5 or squashed[5] in "-_/"):
+        return squashed[:5]                      # 'FR LEH' -> 'FRLEH', 'NLRTM-BOTLEK' -> 'NLRTM'
+    return text                                  # anything else stays as typed, e.g. 'GUYANA'
 
 
 def judge(draught_m, full_draught_m):
     """Return (% full, status). A draught of 0 means 'not entered', so we can't judge."""
     if not draught_m:
         return None, "unsure"
-    pct = round(draught_m / full_draught_m * 100)
+    pct = min(round(draught_m / full_draught_m * 100), 100)  # our "full" depths are averages, so cap at 100
     if pct >= FULL_AT:
         return pct, "full"
     if pct < EMPTY_BELOW:
@@ -192,4 +207,6 @@ async def main():
         pct = f"{s['pct_full']}%" if s["pct_full"] is not None else "?"
         print(f"{s['name']:<24} {s['size_class']:<8} {pct:>5}  {s['status']:<7} -> {s['destination']}")
     print(f"\nSaved to {OUTPUT_FILE}")
-    
+
+if __name__ == "__main__":
+    asyncio.run(main())
