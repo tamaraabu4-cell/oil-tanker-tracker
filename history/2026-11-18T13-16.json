@@ -1,0 +1,93 @@
+{
+  "updated_utc": "2026-11-18T13:16:11+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 3,
+    "empty": 1,
+    "unsure": 0
+  },
+  "ships": [
+    {
+      "mmsi": 636012767,
+      "name": "ASOPOS",
+      "size_class": "Aframax",
+      "length_m": 213,
+      "draught_m": 7.7,
+      "full_draught_m": 14.5,
+      "pct_full": 53,
+      "status": "empty",
+      "destination": "NLRTM",
+      "lat": 51.93285,
+      "lon": 4.218216666666667,
+      "speed_kn": 10.8,
+      "last_seen_utc": "2026-11-18 13:15:02.951319173 +0000 UTC"
+    },
+    {
+      "mmsi": 636019310,
+      "name": "PLUTO MOON",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 15.8,
+      "full_draught_m": 16.5,
+      "pct_full": 96,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 50.42628333333334,
+      "lon": 0.5994016666666667,
+      "speed_kn": 12.4,
+      "last_seen_utc": "2026-11-18 13:14:29.276605612 +0000 UTC"
+    },
+    {
+      "mmsi": 636018671,
+      "name": "LEVANTINE SEA",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.8,
+      "full_draught_m": 14.5,
+      "pct_full": 95,
+      "status": "full",
+      "destination": "FELEH",
+      "lat": 49.524135,
+      "lon": -0.10262166666666667,
+      "speed_kn": 11,
+      "last_seen_utc": "2026-11-18 13:13:27.06286396 +0000 UTC"
+    },
+    {
+      "mmsi": 311001298,
+      "name": "PENELOPE",
+      "size_class": "Aframax",
+      "length_m": 244,
+      "draught_m": 13.5,
+      "full_draught_m": 14.5,
+      "pct_full": 93,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.967681666666664,
+      "lon": 4.073938333333333,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-18 13:14:55.525926279 +0000 UTC"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-16T06:42:12+00:00",
+  "updated_utc": "2026-11-18T13:16:11+00:00",
   "area": "English Channel & southern North Sea",
   "boxes": [
     [
@@ -24,85 +24,70 @@
     ]
   ],
   "counts": {
-    "full": 1,
-    "empty": 2,
-    "unsure": 2
+    "full": 3,
+    "empty": 1,
+    "unsure": 0
   },
   "ships": [
     {
-      "mmsi": 311256000,
-      "name": "EVRIDIKI",
+      "mmsi": 636012767,
+      "name": "ASOPOS",
       "size_class": "Aframax",
-      "length_m": 228,
-      "draught_m": 11.7,
+      "length_m": 213,
+      "draught_m": 7.7,
       "full_draught_m": 14.5,
-      "pct_full": 81,
-      "status": "full",
-      "destination": "NLRTM",
-      "lat": 51.95193666666667,
-      "lon": 4.127315,
-      "speed_kn": 0,
-      "last_seen_utc": "2026-11-16 06:39:23.50136144 +0000 UTC"
-    },
-    {
-      "mmsi": 538009203,
-      "name": "PACIFIC GARNET",
-      "size_class": "Aframax",
-      "length_m": 250,
-      "draught_m": 8.5,
-      "full_draught_m": 14.5,
-      "pct_full": 59,
+      "pct_full": 53,
       "status": "empty",
-      "destination": "NLRTM-BOTLEK",
-      "lat": 51.88943,
-      "lon": 4.290838333333334,
-      "speed_kn": 0,
-      "last_seen_utc": "2026-11-16 06:36:08.359626637 +0000 UTC"
+      "destination": "NLRTM",
+      "lat": 51.93285,
+      "lon": 4.218216666666667,
+      "speed_kn": 10.8,
+      "last_seen_utc": "2026-11-18 13:15:02.951319173 +0000 UTC"
     },
     {
-      "mmsi": 477043500,
-      "name": "VICTORY VENTURE",
-      "size_class": "Aframax",
-      "length_m": 247,
-      "draught_m": 10.2,
-      "full_draught_m": 14.5,
-      "pct_full": 70,
-      "status": "unsure",
-      "destination": "ANTWERP",
-      "lat": 51.404905,
-      "lon": 3.068615,
-      "speed_kn": 11.3,
-      "last_seen_utc": "2026-11-16 06:42:05.010207136 +0000 UTC"
-    },
-    {
-      "mmsi": 636021781,
-      "name": "LIPARI",
+      "mmsi": 636019310,
+      "name": "PLUTO MOON",
       "size_class": "Suezmax",
       "length_m": 274,
-      "draught_m": 9.3,
+      "draught_m": 15.8,
       "full_draught_m": 16.5,
-      "pct_full": 56,
-      "status": "empty",
-      "destination": "ESLPA",
-      "lat": 50.37754833333334,
-      "lon": -0.6257283333333333,
-      "speed_kn": 16,
-      "last_seen_utc": "2026-11-16 06:41:26.955810053 +0000 UTC"
+      "pct_full": 96,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 50.42628333333334,
+      "lon": 0.5994016666666667,
+      "speed_kn": 12.4,
+      "last_seen_utc": "2026-11-18 13:14:29.276605612 +0000 UTC"
     },
     {
-      "mmsi": 477134800,
-      "name": "OCEAN INSPIRATION",
-      "size_class": "Suezmax",
-      "length_m": 295,
-      "draught_m": 11.3,
-      "full_draught_m": 16.5,
-      "pct_full": 68,
-      "status": "unsure",
-      "destination": "DEWVN",
-      "lat": 50.367979999999996,
-      "lon": 0.47421,
-      "speed_kn": 14.8,
-      "last_seen_utc": "2026-11-16 06:37:34.517401978 +0000 UTC"
+      "mmsi": 636018671,
+      "name": "LEVANTINE SEA",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.8,
+      "full_draught_m": 14.5,
+      "pct_full": 95,
+      "status": "full",
+      "destination": "FELEH",
+      "lat": 49.524135,
+      "lon": -0.10262166666666667,
+      "speed_kn": 11,
+      "last_seen_utc": "2026-11-18 13:13:27.06286396 +0000 UTC"
+    },
+    {
+      "mmsi": 311001298,
+      "name": "PENELOPE",
+      "size_class": "Aframax",
+      "length_m": 244,
+      "draught_m": 13.5,
+      "full_draught_m": 14.5,
+      "pct_full": 93,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.967681666666664,
+      "lon": 4.073938333333333,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-18 13:14:55.525926279 +0000 UTC"
     }
   ]
 }
