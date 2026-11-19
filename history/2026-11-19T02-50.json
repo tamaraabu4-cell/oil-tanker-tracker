@@ -1,0 +1,153 @@
+{
+  "updated_utc": "2026-11-19T02:50:25+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 4,
+    "empty": 2,
+    "unsure": 2
+  },
+  "ships": [
+    {
+      "mmsi": 636023558,
+      "name": "UMM GHUWAILINA",
+      "size_class": "Suezmax",
+      "length_m": 299,
+      "draught_m": 9.4,
+      "full_draught_m": 16.5,
+      "pct_full": 57,
+      "status": "empty",
+      "destination": "USPLQ",
+      "lat": 51.35968333333334,
+      "lon": 3.1965950000000003,
+      "speed_kn": 9.1,
+      "last_seen_utc": "2026-11-19 02:48:36.477937432 +0000 UTC"
+    },
+    {
+      "mmsi": 249015000,
+      "name": "ISABELLA",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.5,
+      "full_draught_m": 14.5,
+      "pct_full": 93,
+      "status": "full",
+      "destination": "FRLEH",
+      "lat": 49.61933,
+      "lon": -0.2576116666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-19 02:43:21.423030937 +0000 UTC"
+    },
+    {
+      "mmsi": 461000219,
+      "name": "AMAZON",
+      "size_class": "Aframax",
+      "length_m": 244,
+      "draught_m": 8.5,
+      "full_draught_m": 14.5,
+      "pct_full": 59,
+      "status": "empty",
+      "destination": "FOR ORDERS",
+      "lat": 53.35638333333333,
+      "lon": 3.652546666666667,
+      "speed_kn": 12.4,
+      "last_seen_utc": "2026-11-19 02:50:12.605232681 +0000 UTC"
+    },
+    {
+      "mmsi": 248053000,
+      "name": "PSERIMOS",
+      "size_class": "Aframax",
+      "length_m": 249,
+      "draught_m": 8.8,
+      "full_draught_m": 14.5,
+      "pct_full": 61,
+      "status": "unsure",
+      "destination": "USCRP",
+      "lat": 50.587891666666664,
+      "lon": 0.4646166666666666,
+      "speed_kn": 12.7,
+      "last_seen_utc": "2026-11-19 02:41:10.013430251 +0000 UTC"
+    },
+    {
+      "mmsi": 256047000,
+      "name": "MINERVA AMORGOS",
+      "size_class": "Suezmax",
+      "length_m": 293,
+      "draught_m": 11.5,
+      "full_draught_m": 16.5,
+      "pct_full": 70,
+      "status": "unsure",
+      "destination": "NLMSV",
+      "lat": 51.97125333333334,
+      "lon": 4.0764716666666665,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-19 02:49:33.524845913 +0000 UTC"
+    },
+    {
+      "mmsi": 241649000,
+      "name": "HOMERIC",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 15.7,
+      "full_draught_m": 16.5,
+      "pct_full": 95,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 50.40144,
+      "lon": 0.49872333333333335,
+      "speed_kn": 13.5,
+      "last_seen_utc": "2026-11-19 02:48:28.772930886 +0000 UTC"
+    },
+    {
+      "mmsi": 241962000,
+      "name": "SEA WHALE",
+      "size_class": "Aframax",
+      "length_m": 249,
+      "draught_m": 14.7,
+      "full_draught_m": 14.5,
+      "pct_full": 100,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.92115,
+      "lon": 4.201960000000001,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-19 02:43:53.584704598 +0000 UTC"
+    },
+    {
+      "mmsi": 311000277,
+      "name": "ESTRELLA",
+      "size_class": "Aframax",
+      "length_m": 229,
+      "draught_m": 13.1,
+      "full_draught_m": 14.5,
+      "pct_full": 90,
+      "status": "full",
+      "destination": "FRLEH",
+      "lat": 49.46980166666666,
+      "lon": 0.13144,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-19 02:50:17.433259988 +0000 UTC"
+    }
+  ]
+}
