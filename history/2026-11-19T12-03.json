@@ -1,0 +1,138 @@
+{
+  "updated_utc": "2026-11-19T12:03:02+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 5,
+    "empty": 1,
+    "unsure": 1
+  },
+  "ships": [
+    {
+      "mmsi": 636018671,
+      "name": "LEVANTINE SEA",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.8,
+      "full_draught_m": 14.5,
+      "pct_full": 95,
+      "status": "full",
+      "destination": "FELEH",
+      "lat": 49.46865666666667,
+      "lon": 0.15369166666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-19 12:01:32.559284993 +0000 UTC"
+    },
+    {
+      "mmsi": 636026073,
+      "name": "AL THURAYYA",
+      "size_class": "Suezmax",
+      "length_m": 295,
+      "draught_m": 11.4,
+      "full_draught_m": 16.5,
+      "pct_full": 69,
+      "status": "unsure",
+      "destination": "GATE LNG",
+      "lat": 51.96754,
+      "lon": 4.079096666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-19 11:57:16.932108481 +0000 UTC"
+    },
+    {
+      "mmsi": 241649000,
+      "name": "HOMERIC",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 15.7,
+      "full_draught_m": 16.5,
+      "pct_full": 95,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.806745,
+      "lon": 2.73915,
+      "speed_kn": 12.5,
+      "last_seen_utc": "2026-11-19 11:56:03.048264425 +0000 UTC"
+    },
+    {
+      "mmsi": 636012767,
+      "name": "ASOPOS",
+      "size_class": "Aframax",
+      "length_m": 213,
+      "draught_m": 7.7,
+      "full_draught_m": 14.5,
+      "pct_full": 53,
+      "status": "empty",
+      "destination": "NLRTM",
+      "lat": 51.917950000000005,
+      "lon": 4.2114666666666665,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-19 12:00:25.303759653 +0000 UTC"
+    },
+    {
+      "mmsi": 311256000,
+      "name": "EVRIDIKI",
+      "size_class": "Aframax",
+      "length_m": 228,
+      "draught_m": 11.7,
+      "full_draught_m": 14.5,
+      "pct_full": 81,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.95191666666666,
+      "lon": 4.12735,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-19 11:57:48.689002616 +0000 UTC"
+    },
+    {
+      "mmsi": 538012457,
+      "name": "SH UNITY",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 14.3,
+      "full_draught_m": 14.5,
+      "pct_full": 99,
+      "status": "full",
+      "destination": "FRLEH",
+      "lat": 49.606715,
+      "lon": -0.24833666666666668,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-19 12:02:31.374940314 +0000 UTC"
+    },
+    {
+      "mmsi": 352003576,
+      "name": "VST OCEANIA",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 14.4,
+      "full_draught_m": 14.5,
+      "pct_full": 99,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.930081666666666,
+      "lon": 4.19369,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-19 12:01:52.082277901 +0000 UTC"
+    }
+  ]
+}
