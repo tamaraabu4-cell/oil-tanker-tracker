@@ -1,0 +1,123 @@
+{
+  "updated_utc": "2026-11-19T20:58:02+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 2,
+    "empty": 1,
+    "unsure": 3
+  },
+  "ships": [
+    {
+      "mmsi": 311000974,
+      "name": "MARAN WIND",
+      "size_class": "Aframax",
+      "length_m": 245,
+      "draught_m": 8.5,
+      "full_draught_m": 14.5,
+      "pct_full": 59,
+      "status": "empty",
+      "destination": "NLWAL",
+      "lat": 51.98858,
+      "lon": 4.052815,
+      "speed_kn": 11.6,
+      "last_seen_utc": "2026-11-19 20:52:58.343994994 +0000 UTC"
+    },
+    {
+      "mmsi": 353727000,
+      "name": "LILAC PROMENADE",
+      "size_class": "Aframax",
+      "length_m": 230,
+      "draught_m": 10.4,
+      "full_draught_m": 14.5,
+      "pct_full": 72,
+      "status": "unsure",
+      "destination": "NLTNZ",
+      "lat": 51.440218333333334,
+      "lon": 2.60757,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-19 20:56:27.76063769 +0000 UTC"
+    },
+    {
+      "mmsi": 636018848,
+      "name": "VEGA STAR",
+      "size_class": "Aframax",
+      "length_m": 230,
+      "draught_m": 10.3,
+      "full_draught_m": 14.5,
+      "pct_full": 71,
+      "status": "unsure",
+      "destination": "NLTNZ",
+      "lat": 51.340293333333335,
+      "lon": 3.7663716666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-19 20:50:32.394277526 +0000 UTC"
+    },
+    {
+      "mmsi": 249015000,
+      "name": "ISABELLA",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.5,
+      "full_draught_m": 14.5,
+      "pct_full": 93,
+      "status": "full",
+      "destination": "FRLEH",
+      "lat": 49.61875666666666,
+      "lon": -0.25743166666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-19 20:55:24.827686725 +0000 UTC"
+    },
+    {
+      "mmsi": 538012457,
+      "name": "SH UNITY",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 14.3,
+      "full_draught_m": 14.5,
+      "pct_full": 99,
+      "status": "full",
+      "destination": "FRLEH",
+      "lat": 49.60651666666667,
+      "lon": -0.24833833333333333,
+      "speed_kn": 0.3,
+      "last_seen_utc": "2026-11-19 20:50:31.340894292 +0000 UTC"
+    },
+    {
+      "mmsi": 256047000,
+      "name": "MINERVA AMORGOS",
+      "size_class": "Suezmax",
+      "length_m": 293,
+      "draught_m": 10,
+      "full_draught_m": 16.5,
+      "pct_full": 61,
+      "status": "unsure",
+      "destination": "US GULF",
+      "lat": 50.68517333333333,
+      "lon": 0.7602683333333334,
+      "speed_kn": 8.9,
+      "last_seen_utc": "2026-11-19 20:52:42.424816909 +0000 UTC"
+    }
+  ]
+}
