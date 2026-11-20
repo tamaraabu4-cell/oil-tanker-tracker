@@ -1,0 +1,63 @@
+{
+  "updated_utc": "2026-11-20T12:04:45+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 1,
+    "empty": 1,
+    "unsure": 0
+  },
+  "ships": [
+    {
+      "mmsi": 249015000,
+      "name": "ISABELLA",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.5,
+      "full_draught_m": 14.5,
+      "pct_full": 93,
+      "status": "full",
+      "destination": "FRLEH",
+      "lat": 49.61681333333333,
+      "lon": -0.25814666666666664,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-20 11:55:28.343488368 +0000 UTC"
+    },
+    {
+      "mmsi": 311000974,
+      "name": "MARAN WIND",
+      "size_class": "Aframax",
+      "length_m": 245,
+      "draught_m": 8.5,
+      "full_draught_m": 14.5,
+      "pct_full": 59,
+      "status": "empty",
+      "destination": "NLWAL",
+      "lat": 51.891555000000004,
+      "lon": 4.431978333333333,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-20 11:59:10.315433405 +0000 UTC"
+    }
+  ]
+}
