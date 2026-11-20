@@ -1,0 +1,78 @@
+{
+  "updated_utc": "2026-11-20T02:35:00+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 0,
+    "empty": 1,
+    "unsure": 2
+  },
+  "ships": [
+    {
+      "mmsi": 248119000,
+      "name": "SEAVOYAGER",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 9.5,
+      "full_draught_m": 16.5,
+      "pct_full": 58,
+      "status": "empty",
+      "destination": "FOR ORDERS",
+      "lat": 50.852925,
+      "lon": 1.08634,
+      "speed_kn": 12,
+      "last_seen_utc": "2026-11-20 02:32:07.411417574 +0000 UTC"
+    },
+    {
+      "mmsi": 235108529,
+      "name": "KMARIN RIGOUR",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 9,
+      "full_draught_m": 14.5,
+      "pct_full": 62,
+      "status": "unsure",
+      "destination": "NOMON",
+      "lat": 51.96293,
+      "lon": 4.074195,
+      "speed_kn": 4,
+      "last_seen_utc": "2026-11-20 02:27:37.698465762 +0000 UTC"
+    },
+    {
+      "mmsi": 636026073,
+      "name": "AL THURAYYA",
+      "size_class": "Suezmax",
+      "length_m": 295,
+      "draught_m": 9.9,
+      "full_draught_m": 16.5,
+      "pct_full": 60,
+      "status": "unsure",
+      "destination": "FOR ORDERS",
+      "lat": 51.96823833333334,
+      "lon": 4.0790516666666665,
+      "speed_kn": 1.4,
+      "last_seen_utc": "2026-11-20 02:33:49.403260892 +0000 UTC"
+    }
+  ]
+}
