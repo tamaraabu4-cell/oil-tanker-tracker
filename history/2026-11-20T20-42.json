@@ -1,0 +1,138 @@
+{
+  "updated_utc": "2026-11-20T20:42:07+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 2,
+    "empty": 4,
+    "unsure": 1
+  },
+  "ships": [
+    {
+      "mmsi": 352006655,
+      "name": "ASP LUCY",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 8.6,
+      "full_draught_m": 14.5,
+      "pct_full": 59,
+      "status": "empty",
+      "destination": "NLAMS",
+      "lat": 52.44923166666667,
+      "lon": 3.9602266666666663,
+      "speed_kn": 7.6,
+      "last_seen_utc": "2026-11-20 20:42:02.836656708 +0000 UTC"
+    },
+    {
+      "mmsi": 636012767,
+      "name": "ASOPOS",
+      "size_class": "Aframax",
+      "length_m": 213,
+      "draught_m": 7.7,
+      "full_draught_m": 14.5,
+      "pct_full": 53,
+      "status": "empty",
+      "destination": "NLRTM",
+      "lat": 51.91798333333334,
+      "lon": 4.2114666666666665,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-20 20:36:27.42861161 +0000 UTC"
+    },
+    {
+      "mmsi": 636020693,
+      "name": "ATLANTIC PRINCESS",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 9.5,
+      "full_draught_m": 16.5,
+      "pct_full": 58,
+      "status": "empty",
+      "destination": "NLVLI",
+      "lat": 51.40134666666667,
+      "lon": 3.740981666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-20 20:37:37.08437678 +0000 UTC"
+    },
+    {
+      "mmsi": 636021311,
+      "name": "DF MYSTRAS",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.1,
+      "full_draught_m": 14.5,
+      "pct_full": 90,
+      "status": "full",
+      "destination": "FRLEH",
+      "lat": 49.46863666666666,
+      "lon": 0.15359333333333333,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-20 20:39:46.368652538 +0000 UTC"
+    },
+    {
+      "mmsi": 353727000,
+      "name": "LILAC PROMENADE",
+      "size_class": "Aframax",
+      "length_m": 230,
+      "draught_m": 10.4,
+      "full_draught_m": 14.5,
+      "pct_full": 72,
+      "status": "unsure",
+      "destination": "NLTNZ",
+      "lat": 51.34039166666666,
+      "lon": 3.766505,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-20 20:39:27.232468957 +0000 UTC"
+    },
+    {
+      "mmsi": 311000974,
+      "name": "MARAN WIND",
+      "size_class": "Aframax",
+      "length_m": 245,
+      "draught_m": 8.5,
+      "full_draught_m": 14.5,
+      "pct_full": 59,
+      "status": "empty",
+      "destination": "NLWAL",
+      "lat": 51.89154166666666,
+      "lon": 4.431985,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-20 20:38:17.367487795 +0000 UTC"
+    },
+    {
+      "mmsi": 249015000,
+      "name": "ISABELLA",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.5,
+      "full_draught_m": 14.5,
+      "pct_full": 93,
+      "status": "full",
+      "destination": "FRLEH",
+      "lat": 49.469878333333334,
+      "lon": 0.13150166666666668,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-20 20:39:02.519712939 +0000 UTC"
+    }
+  ]
+}
