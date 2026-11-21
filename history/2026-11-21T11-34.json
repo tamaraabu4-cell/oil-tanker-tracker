@@ -1,0 +1,48 @@
+{
+  "updated_utc": "2026-11-21T11:34:41+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 1,
+    "empty": 0,
+    "unsure": 0
+  },
+  "ships": [
+    {
+      "mmsi": 636023194,
+      "name": "DELTA  MARINER",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 14.8,
+      "full_draught_m": 16.5,
+      "pct_full": 90,
+      "status": "full",
+      "destination": "FRLEH",
+      "lat": 49.583013333333334,
+      "lon": -0.25779,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-21 11:26:29.141117707 +0000 UTC"
+    }
+  ]
+}
