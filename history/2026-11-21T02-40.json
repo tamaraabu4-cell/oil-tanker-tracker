@@ -1,0 +1,168 @@
+{
+  "updated_utc": "2026-11-21T02:40:32+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 3,
+    "empty": 4,
+    "unsure": 2
+  },
+  "ships": [
+    {
+      "mmsi": 311027400,
+      "name": "MARAN SCOTT",
+      "size_class": "Aframax",
+      "length_m": 248,
+      "draught_m": 7,
+      "full_draught_m": 14.5,
+      "pct_full": 48,
+      "status": "empty",
+      "destination": "NLRTM",
+      "lat": 51.88311833333333,
+      "lon": 4.447435,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-21 02:39:36.984363436 +0000 UTC"
+    },
+    {
+      "mmsi": 636021311,
+      "name": "DF MYSTRAS",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.1,
+      "full_draught_m": 14.5,
+      "pct_full": 90,
+      "status": "full",
+      "destination": "FRLEH",
+      "lat": 49.46864,
+      "lon": 0.15363166666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-21 02:30:46.365706108 +0000 UTC"
+    },
+    {
+      "mmsi": 636020693,
+      "name": "ATLANTIC PRINCESS",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 9.6,
+      "full_draught_m": 16.5,
+      "pct_full": 58,
+      "status": "empty",
+      "destination": "MXDBT",
+      "lat": 51.419641666666664,
+      "lon": 3.4858816666666663,
+      "speed_kn": 15.2,
+      "last_seen_utc": "2026-11-21 02:35:06.360846191 +0000 UTC"
+    },
+    {
+      "mmsi": 235103057,
+      "name": "INGRID KNUTSEN",
+      "size_class": "Aframax",
+      "length_m": 257,
+      "draught_m": 11.3,
+      "full_draught_m": 14.5,
+      "pct_full": 78,
+      "status": "unsure",
+      "destination": "NLRTM",
+      "lat": 51.91723,
+      "lon": 4.207515,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-21 02:34:58.369048372 +0000 UTC"
+    },
+    {
+      "mmsi": 219332000,
+      "name": "DAN CISNE",
+      "size_class": "Aframax",
+      "length_m": 207,
+      "draught_m": 12.5,
+      "full_draught_m": 14.5,
+      "pct_full": 86,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.95289666666667,
+      "lon": 4.130956666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-21 02:40:18.490045711 +0000 UTC"
+    },
+    {
+      "mmsi": 352006655,
+      "name": "ASP LUCY",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 8.6,
+      "full_draught_m": 14.5,
+      "pct_full": 59,
+      "status": "empty",
+      "destination": "NLAMS",
+      "lat": 52.42140833333334,
+      "lon": 4.748408333333333,
+      "speed_kn": 2.1,
+      "last_seen_utc": "2026-11-21 02:39:54.004769099 +0000 UTC"
+    },
+    {
+      "mmsi": 241649000,
+      "name": "HOMERIC",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 15.7,
+      "full_draught_m": 16.5,
+      "pct_full": 95,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.96864333333333,
+      "lon": 4.069766666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-21 02:39:57.408776488 +0000 UTC"
+    },
+    {
+      "mmsi": 563234600,
+      "name": "GREENERGY PEARL",
+      "size_class": "Suezmax",
+      "length_m": 299,
+      "draught_m": 11.5,
+      "full_draught_m": 16.5,
+      "pct_full": 70,
+      "status": "unsure",
+      "destination": "NLRTM",
+      "lat": 51.97121833333333,
+      "lon": 4.076413333333333,
+      "speed_kn": 0.1,
+      "last_seen_utc": "2026-11-21 02:37:06.124634129 +0000 UTC"
+    },
+    {
+      "mmsi": 636012767,
+      "name": "ASOPOS",
+      "size_class": "Aframax",
+      "length_m": 213,
+      "draught_m": 7.7,
+      "full_draught_m": 14.5,
+      "pct_full": 53,
+      "status": "empty",
+      "destination": "NLRTM",
+      "lat": 51.91793333333333,
+      "lon": 4.211416666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-21 02:36:26.015822867 +0000 UTC"
+    }
+  ]
+}
