@@ -1,0 +1,168 @@
+{
+  "updated_utc": "2026-11-22T00:38:00+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 5,
+    "empty": 2,
+    "unsure": 2
+  },
+  "ships": [
+    {
+      "mmsi": 219332000,
+      "name": "DAN CISNE",
+      "size_class": "Aframax",
+      "length_m": 207,
+      "draught_m": 12.5,
+      "full_draught_m": 14.5,
+      "pct_full": 86,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.95290166666667,
+      "lon": 4.130961666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-22 00:35:03.033587074 +0000 UTC"
+    },
+    {
+      "mmsi": 311256000,
+      "name": "EVRIDIKI",
+      "size_class": "Aframax",
+      "length_m": 228,
+      "draught_m": 11.7,
+      "full_draught_m": 14.5,
+      "pct_full": 81,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.952016666666665,
+      "lon": 4.1273,
+      "speed_kn": 0.1,
+      "last_seen_utc": "2026-11-22 00:30:59.247149786 +0000 UTC"
+    },
+    {
+      "mmsi": 563315600,
+      "name": "BW BOREALIS",
+      "size_class": "Suezmax",
+      "length_m": 295,
+      "draught_m": 11.3,
+      "full_draught_m": 16.5,
+      "pct_full": 68,
+      "status": "unsure",
+      "destination": "NLRTM",
+      "lat": 51.967530000000004,
+      "lon": 4.079075,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-22 00:33:50.551074627 +0000 UTC"
+    },
+    {
+      "mmsi": 311027400,
+      "name": "MARAN SCOTT",
+      "size_class": "Aframax",
+      "length_m": 248,
+      "draught_m": 7,
+      "full_draught_m": 14.5,
+      "pct_full": 48,
+      "status": "empty",
+      "destination": "NLRTM",
+      "lat": 51.88312,
+      "lon": 4.447435,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-22 00:36:46.526339134 +0000 UTC"
+    },
+    {
+      "mmsi": 241714000,
+      "name": "MARAN ASPASIA",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 16.9,
+      "full_draught_m": 16.5,
+      "pct_full": 100,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.94689833333334,
+      "lon": 4.1644483333333335,
+      "speed_kn": 0.7,
+      "last_seen_utc": "2026-11-22 00:31:18.126386204 +0000 UTC"
+    },
+    {
+      "mmsi": 538006343,
+      "name": "STI SPIGA",
+      "size_class": "Aframax",
+      "length_m": 256,
+      "draught_m": 13.3,
+      "full_draught_m": 14.5,
+      "pct_full": 92,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 50.351798333333335,
+      "lon": 0.15628666666666666,
+      "speed_kn": 11.1,
+      "last_seen_utc": "2026-11-22 00:33:54.2882744 +0000 UTC"
+    },
+    {
+      "mmsi": 636026340,
+      "name": "ASP SERENE",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 12.8,
+      "full_draught_m": 14.5,
+      "pct_full": 88,
+      "status": "full",
+      "destination": "MAJFL",
+      "lat": 51.358135,
+      "lon": 3.8948650000000002,
+      "speed_kn": 12.6,
+      "last_seen_utc": "2026-11-22 00:28:42.736478017 +0000 UTC"
+    },
+    {
+      "mmsi": 636024871,
+      "name": "CIELO DI CAGLIARI",
+      "size_class": "Aframax",
+      "length_m": 228,
+      "draught_m": 8.6,
+      "full_draught_m": 14.5,
+      "pct_full": 59,
+      "status": "empty",
+      "destination": "NLAMS",
+      "lat": 52.414941666666664,
+      "lon": 4.749491666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-22 00:29:30.256025357 +0000 UTC"
+    },
+    {
+      "mmsi": 314204000,
+      "name": "GOLD TIDE",
+      "size_class": "Aframax",
+      "length_m": 245,
+      "draught_m": 9,
+      "full_draught_m": 14.5,
+      "pct_full": 62,
+      "status": "unsure",
+      "destination": "SKAGEN_PILOT STATION",
+      "lat": 50.3491,
+      "lon": 0.19246666666666667,
+      "speed_kn": 10.3,
+      "last_seen_utc": "2026-11-22 00:37:31.378963107 +0000 UTC"
+    }
+  ]
+}
