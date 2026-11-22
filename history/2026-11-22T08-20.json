@@ -1,0 +1,138 @@
+{
+  "updated_utc": "2026-11-22T08:20:35+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 2,
+    "empty": 1,
+    "unsure": 4
+  },
+  "ships": [
+    {
+      "mmsi": 563315600,
+      "name": "BW BOREALIS",
+      "size_class": "Suezmax",
+      "length_m": 295,
+      "draught_m": 11.3,
+      "full_draught_m": 16.5,
+      "pct_full": 68,
+      "status": "unsure",
+      "destination": "NLRTM",
+      "lat": 51.96751,
+      "lon": 4.07908,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-22 08:18:51.085578972 +0000 UTC"
+    },
+    {
+      "mmsi": 636021311,
+      "name": "DF MYSTRAS",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 10.4,
+      "full_draught_m": 14.5,
+      "pct_full": 72,
+      "status": "unsure",
+      "destination": "GBFAW",
+      "lat": 50.837239999999994,
+      "lon": -1.3259866666666666,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-22 08:15:16.240099344 +0000 UTC"
+    },
+    {
+      "mmsi": 538006077,
+      "name": "STI SOLACE",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.9,
+      "full_draught_m": 14.5,
+      "pct_full": 96,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.91772666666667,
+      "lon": 4.21017,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-22 08:11:19.065801327 +0000 UTC"
+    },
+    {
+      "mmsi": 228432700,
+      "name": "SAINT BARBARA",
+      "size_class": "Suezmax",
+      "length_m": 299,
+      "draught_m": 11.5,
+      "full_draught_m": 16.5,
+      "pct_full": 70,
+      "status": "unsure",
+      "destination": "PLSWI",
+      "lat": 50.34963166666667,
+      "lon": 0.30507,
+      "speed_kn": 15.4,
+      "last_seen_utc": "2026-11-22 08:20:17.288680896 +0000 UTC"
+    },
+    {
+      "mmsi": 352003576,
+      "name": "VST OCEANIA",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 11.2,
+      "full_draught_m": 14.5,
+      "pct_full": 77,
+      "status": "unsure",
+      "destination": "NLRTM",
+      "lat": 51.93553333333333,
+      "lon": 4.059713333333333,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-22 08:12:03.503261938 +0000 UTC"
+    },
+    {
+      "mmsi": 636023194,
+      "name": "DELTA  MARINER",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 14.7,
+      "full_draught_m": 16.5,
+      "pct_full": 89,
+      "status": "full",
+      "destination": "FRLEH",
+      "lat": 49.58486666666667,
+      "lon": -0.25629833333333335,
+      "speed_kn": 0.2,
+      "last_seen_utc": "2026-11-22 08:12:38.899412757 +0000 UTC"
+    },
+    {
+      "mmsi": 352006655,
+      "name": "ASP LUCY",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 8.6,
+      "full_draught_m": 14.5,
+      "pct_full": 59,
+      "status": "empty",
+      "destination": "NLAMS",
+      "lat": 52.41368333333333,
+      "lon": 4.7509749999999995,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-22 08:16:38.907709049 +0000 UTC"
+    }
+  ]
+}
