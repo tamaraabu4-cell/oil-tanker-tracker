@@ -1,0 +1,108 @@
+{
+  "updated_utc": "2026-11-22T16:35:29+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 2,
+    "empty": 0,
+    "unsure": 3
+  },
+  "ships": [
+    {
+      "mmsi": 563315600,
+      "name": "BW BOREALIS",
+      "size_class": "Suezmax",
+      "length_m": 295,
+      "draught_m": 11.3,
+      "full_draught_m": 16.5,
+      "pct_full": 68,
+      "status": "unsure",
+      "destination": "NLRTM",
+      "lat": 51.96750333333333,
+      "lon": 4.079091666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-22 16:33:53.11168103 +0000 UTC"
+    },
+    {
+      "mmsi": 311027600,
+      "name": "MARAN PEARY",
+      "size_class": "Aframax",
+      "length_m": 249,
+      "draught_m": 12.3,
+      "full_draught_m": 14.5,
+      "pct_full": 85,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.95299,
+      "lon": 4.1408000000000005,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-22 16:33:54.443579025 +0000 UTC"
+    },
+    {
+      "mmsi": 538006077,
+      "name": "STI SOLACE",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 9,
+      "full_draught_m": 14.5,
+      "pct_full": 62,
+      "status": "unsure",
+      "destination": "GIGIB",
+      "lat": 51.917705,
+      "lon": 4.210143333333333,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-22 16:32:19.057940823 +0000 UTC"
+    },
+    {
+      "mmsi": 538006343,
+      "name": "STI SPIGA",
+      "size_class": "Aframax",
+      "length_m": 256,
+      "draught_m": 13.3,
+      "full_draught_m": 14.5,
+      "pct_full": 92,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 52.00700166666666,
+      "lon": 3.8847116666666666,
+      "speed_kn": 10.3,
+      "last_seen_utc": "2026-11-22 16:34:33.503206292 +0000 UTC"
+    },
+    {
+      "mmsi": 235103057,
+      "name": "INGRID KNUTSEN",
+      "size_class": "Aframax",
+      "length_m": 257,
+      "draught_m": 11.3,
+      "full_draught_m": 14.5,
+      "pct_full": 78,
+      "status": "unsure",
+      "destination": "NLRTM",
+      "lat": 51.917228333333334,
+      "lon": 4.207471666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-22 16:30:16.596542001 +0000 UTC"
+    }
+  ]
+}
