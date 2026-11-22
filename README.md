@@ -32,13 +32,14 @@ A full tanker sits lower in the water than an empty one. Counting full tankers m
 - [x] Add live positions, size and gas filters, % full
 - [x] Save `tankers.json` snapshots on a timer (GitHub Actions)
 - [x] Map page
-- [ ] Weekly count of full tankers vs the oil price
+- [x] Weekly count of full tankers vs the oil price
 
 ## Things I've learned from the data
 
 - Most tankers in the Channel are small coastal, fuel and chemical tankers, not crude carriers.
 - Gas (LNG) carriers are listed as "tankers" too, but their depth barely changes when loaded, so they need filtering out.
 - Draught and destination are typed in by the crew, so the data is messy: a draught of 0 means "not entered", and one port can appear as `LE HAVRE`, `FRLEH` or `FR LEH`.
+- Free AIS barely reaches Nigeria: 10 minutes over the whole coast heard 3 messages from 1 ship, against thousands in the English Channel. The data relies on volunteer receivers on land, and there are almost none there.
 
 ## Run it yourself
 
