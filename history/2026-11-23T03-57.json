@@ -1,0 +1,108 @@
+{
+  "updated_utc": "2026-11-23T03:57:58+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 2,
+    "empty": 2,
+    "unsure": 1
+  },
+  "ships": [
+    {
+      "mmsi": 311027400,
+      "name": "MARAN SCOTT",
+      "size_class": "Aframax",
+      "length_m": 248,
+      "draught_m": 7,
+      "full_draught_m": 14.5,
+      "pct_full": 48,
+      "status": "empty",
+      "destination": "NLRTM",
+      "lat": 51.88311833333333,
+      "lon": 4.4474366666666665,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-23 03:54:53.433932967 +0000 UTC"
+    },
+    {
+      "mmsi": 636021311,
+      "name": "DF MYSTRAS",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 10.4,
+      "full_draught_m": 14.5,
+      "pct_full": 72,
+      "status": "unsure",
+      "destination": "GBFAW",
+      "lat": 50.83718833333333,
+      "lon": -1.3260066666666668,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-23 03:57:16.267311381 +0000 UTC"
+    },
+    {
+      "mmsi": 352006655,
+      "name": "ASP LUCY",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 8.6,
+      "full_draught_m": 14.5,
+      "pct_full": 59,
+      "status": "empty",
+      "destination": "NLAMS",
+      "lat": 52.41365166666667,
+      "lon": 4.750986666666666,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-23 03:52:38.900554101 +0000 UTC"
+    },
+    {
+      "mmsi": 636024690,
+      "name": "NAUTILUS I",
+      "size_class": "Suezmax",
+      "length_m": 270,
+      "draught_m": 15,
+      "full_draught_m": 16.5,
+      "pct_full": 91,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.87788333333333,
+      "lon": 4.309683333333334,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-23 03:56:34.614004733 +0000 UTC"
+    },
+    {
+      "mmsi": 414476000,
+      "name": "YUAN NAN HAI",
+      "size_class": "Suezmax",
+      "length_m": 275,
+      "draught_m": 15.6,
+      "full_draught_m": 16.5,
+      "pct_full": 95,
+      "status": "full",
+      "destination": "GOTHENBURG",
+      "lat": 50.45356666666667,
+      "lon": 0.7464133333333333,
+      "speed_kn": 11.2,
+      "last_seen_utc": "2026-11-23 03:48:31.009253975 +0000 UTC"
+    }
+  ]
+}
