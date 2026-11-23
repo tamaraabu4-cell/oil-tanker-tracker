@@ -1,0 +1,78 @@
+{
+  "updated_utc": "2026-11-23T15:05:42+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 1,
+    "empty": 1,
+    "unsure": 1
+  },
+  "ships": [
+    {
+      "mmsi": 636016128,
+      "name": "WHITE MOON",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 9.5,
+      "full_draught_m": 16.5,
+      "pct_full": 58,
+      "status": "empty",
+      "destination": "NL RTMM",
+      "lat": 51.92733166666667,
+      "lon": 4.206675,
+      "speed_kn": 0.1,
+      "last_seen_utc": "2026-11-23 15:04:22.607886495 +0000 UTC"
+    },
+    {
+      "mmsi": 538005819,
+      "name": "STI GRATITUDE",
+      "size_class": "Aframax",
+      "length_m": 249,
+      "draught_m": 14.5,
+      "full_draught_m": 14.5,
+      "pct_full": 100,
+      "status": "full",
+      "destination": "PLGDN",
+      "lat": 50.43944,
+      "lon": 0.7172499999999999,
+      "speed_kn": 11,
+      "last_seen_utc": "2026-11-23 15:02:10.258367286 +0000 UTC"
+    },
+    {
+      "mmsi": 636024677,
+      "name": "MUGELLO",
+      "size_class": "Aframax",
+      "length_m": 228,
+      "draught_m": 9.7,
+      "full_draught_m": 14.5,
+      "pct_full": 67,
+      "status": "unsure",
+      "destination": "GBFAW",
+      "lat": 50.838184999999996,
+      "lon": -1.3274650000000001,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-23 15:03:20.401714077 +0000 UTC"
+    }
+  ]
+}
