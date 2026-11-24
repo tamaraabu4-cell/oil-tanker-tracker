@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-23T15:05:42+00:00",
+  "updated_utc": "2026-11-24T02:31:02+00:00",
   "area": "English Channel & southern North Sea",
   "boxes": [
     [
@@ -24,11 +24,56 @@
     ]
   ],
   "counts": {
-    "full": 1,
-    "empty": 1,
-    "unsure": 1
+    "full": 4,
+    "empty": 3,
+    "unsure": 0
   },
   "ships": [
+    {
+      "mmsi": 241604000,
+      "name": "MINERVA ZENOBIA",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.5,
+      "full_draught_m": 14.5,
+      "pct_full": 93,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.90065166666667,
+      "lon": 3.4459500000000003,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-24 02:25:48.379003272 +0000 UTC"
+    },
+    {
+      "mmsi": 311256000,
+      "name": "EVRIDIKI",
+      "size_class": "Aframax",
+      "length_m": 228,
+      "draught_m": 11.7,
+      "full_draught_m": 14.5,
+      "pct_full": 81,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.97336666666667,
+      "lon": 4.029083333333333,
+      "speed_kn": 6.2,
+      "last_seen_utc": "2026-11-24 02:30:24.129685696 +0000 UTC"
+    },
+    {
+      "mmsi": 249693000,
+      "name": "SEARUBY",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 14.2,
+      "full_draught_m": 14.5,
+      "pct_full": 98,
+      "status": "full",
+      "destination": "DEWVN",
+      "lat": 50.221085,
+      "lon": -0.5667383333333333,
+      "speed_kn": 9.8,
+      "last_seen_utc": "2026-11-24 02:25:34.178003471 +0000 UTC"
+    },
     {
       "mmsi": 636016128,
       "name": "WHITE MOON",
@@ -39,40 +84,55 @@
       "pct_full": 58,
       "status": "empty",
       "destination": "NL RTMM",
-      "lat": 51.92733166666667,
-      "lon": 4.206675,
-      "speed_kn": 0.1,
-      "last_seen_utc": "2026-11-23 15:04:22.607886495 +0000 UTC"
+      "lat": 51.92734666666667,
+      "lon": 4.2066783333333335,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-24 02:26:03.109913007 +0000 UTC"
     },
     {
-      "mmsi": 538005819,
-      "name": "STI GRATITUDE",
-      "size_class": "Aframax",
-      "length_m": 249,
-      "draught_m": 14.5,
-      "full_draught_m": 14.5,
-      "pct_full": 100,
-      "status": "full",
-      "destination": "PLGDN",
-      "lat": 50.43944,
-      "lon": 0.7172499999999999,
-      "speed_kn": 11,
-      "last_seen_utc": "2026-11-23 15:02:10.258367286 +0000 UTC"
-    },
-    {
-      "mmsi": 636024677,
-      "name": "MUGELLO",
+      "mmsi": 636024871,
+      "name": "CIELO DI CAGLIARI",
       "size_class": "Aframax",
       "length_m": 228,
-      "draught_m": 9.7,
+      "draught_m": 8.6,
       "full_draught_m": 14.5,
-      "pct_full": 67,
-      "status": "unsure",
-      "destination": "GBFAW",
-      "lat": 50.838184999999996,
-      "lon": -1.3274650000000001,
+      "pct_full": 59,
+      "status": "empty",
+      "destination": "NLAMS",
+      "lat": 52.41492,
+      "lon": 4.749453333333333,
       "speed_kn": 0,
-      "last_seen_utc": "2026-11-23 15:03:20.401714077 +0000 UTC"
+      "last_seen_utc": "2026-11-24 02:23:42.886224202 +0000 UTC"
+    },
+    {
+      "mmsi": 311027400,
+      "name": "MARAN SCOTT",
+      "size_class": "Aframax",
+      "length_m": 248,
+      "draught_m": 7,
+      "full_draught_m": 14.5,
+      "pct_full": 48,
+      "status": "empty",
+      "destination": "NLRTM",
+      "lat": 51.88312333333333,
+      "lon": 4.447441666666666,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-24 02:27:55.382164586 +0000 UTC"
+    },
+    {
+      "mmsi": 314001105,
+      "name": "MT AVINA",
+      "size_class": "Aframax",
+      "length_m": 248,
+      "draught_m": 14.3,
+      "full_draught_m": 14.5,
+      "pct_full": 99,
+      "status": "full",
+      "destination": "SGSIN",
+      "lat": 50.83119833333333,
+      "lon": 1.1247166666666668,
+      "speed_kn": 12.9,
+      "last_seen_utc": "2026-11-24 02:30:30.078788306 +0000 UTC"
     }
   ]
 }
