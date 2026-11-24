@@ -1,0 +1,93 @@
+{
+  "updated_utc": "2026-11-24T12:51:41+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 2,
+    "empty": 2,
+    "unsure": 0
+  },
+  "ships": [
+    {
+      "mmsi": 538004172,
+      "name": "DUBAI ATTRACTION",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.2,
+      "full_draught_m": 14.5,
+      "pct_full": 91,
+      "status": "full",
+      "destination": "GBFAW",
+      "lat": 50.3549,
+      "lon": -3.381595,
+      "speed_kn": 6.4,
+      "last_seen_utc": "2026-11-24 12:49:44.217107614 +0000 UTC"
+    },
+    {
+      "mmsi": 636016128,
+      "name": "WHITE MOON",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 9.5,
+      "full_draught_m": 16.5,
+      "pct_full": 58,
+      "status": "empty",
+      "destination": "NL RTMM",
+      "lat": 51.92734333333333,
+      "lon": 4.2067033333333335,
+      "speed_kn": 0.1,
+      "last_seen_utc": "2026-11-24 12:49:13.382329545 +0000 UTC"
+    },
+    {
+      "mmsi": 311027400,
+      "name": "MARAN SCOTT",
+      "size_class": "Aframax",
+      "length_m": 248,
+      "draught_m": 7,
+      "full_draught_m": 14.5,
+      "pct_full": 48,
+      "status": "empty",
+      "destination": "NLRTM",
+      "lat": 51.883111666666665,
+      "lon": 4.447426666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-24 12:49:01.069665789 +0000 UTC"
+    },
+    {
+      "mmsi": 311027600,
+      "name": "MARAN PEARY",
+      "size_class": "Aframax",
+      "length_m": 249,
+      "draught_m": 12.3,
+      "full_draught_m": 14.5,
+      "pct_full": 85,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.952981666666666,
+      "lon": 4.140788333333334,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-24 12:46:03.695301657 +0000 UTC"
+    }
+  ]
+}
