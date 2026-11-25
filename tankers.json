@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-24T23:15:49+00:00",
+  "updated_utc": "2026-11-25T05:39:50+00:00",
   "area": "English Channel & southern North Sea",
   "boxes": [
     [
@@ -24,70 +24,40 @@
     ]
   ],
   "counts": {
-    "full": 4,
+    "full": 2,
     "empty": 1,
     "unsure": 0
   },
   "ships": [
     {
-      "mmsi": 636017059,
-      "name": "SILVERWAY",
-      "size_class": "Suezmax",
-      "length_m": 277,
-      "draught_m": 16.1,
-      "full_draught_m": 16.5,
-      "pct_full": 98,
-      "status": "full",
-      "destination": "GRPME",
-      "lat": 50.41233,
-      "lon": -3.404695,
-      "speed_kn": 1.7,
-      "last_seen_utc": "2026-11-24 23:09:23.789404866 +0000 UTC"
-    },
-    {
-      "mmsi": 636016128,
-      "name": "WHITE MOON",
-      "size_class": "Suezmax",
-      "length_m": 274,
-      "draught_m": 9.6,
-      "full_draught_m": 16.5,
-      "pct_full": 58,
-      "status": "empty",
-      "destination": "FOR ORDERS",
-      "lat": 52.034225,
-      "lon": 3.867235,
-      "speed_kn": 7.3,
-      "last_seen_utc": "2026-11-24 23:13:33.091125613 +0000 UTC"
-    },
-    {
-      "mmsi": 636023194,
-      "name": "DELTA  MARINER",
-      "size_class": "Suezmax",
-      "length_m": 274,
-      "draught_m": 14.7,
-      "full_draught_m": 16.5,
-      "pct_full": 89,
-      "status": "full",
-      "destination": "FRLEH",
-      "lat": 49.46888,
-      "lon": 0.153835,
-      "speed_kn": 0,
-      "last_seen_utc": "2026-11-24 23:08:46.406489733 +0000 UTC"
-    },
-    {
-      "mmsi": 538010003,
-      "name": "LADY HENRIETTA",
+      "mmsi": 230687000,
+      "name": "JAARLI",
       "size_class": "Aframax",
       "length_m": 250,
-      "draught_m": 14.2,
+      "draught_m": 11.8,
       "full_draught_m": 14.5,
-      "pct_full": 98,
+      "pct_full": 81,
       "status": "full",
-      "destination": "TRTUT",
-      "lat": 50.79705,
-      "lon": 1.05265,
-      "speed_kn": 10.3,
-      "last_seen_utc": "2026-11-24 23:15:25.249035811 +0000 UTC"
+      "destination": "NLRTM",
+      "lat": 51.91838833333334,
+      "lon": 3.530865,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-25 05:39:30.249406092 +0000 UTC"
+    },
+    {
+      "mmsi": 311027400,
+      "name": "MARAN SCOTT",
+      "size_class": "Aframax",
+      "length_m": 248,
+      "draught_m": 7,
+      "full_draught_m": 14.5,
+      "pct_full": 48,
+      "status": "empty",
+      "destination": "NLRTM",
+      "lat": 51.88312,
+      "lon": 4.447435,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-25 05:34:03.442142133 +0000 UTC"
     },
     {
       "mmsi": 538005826,
@@ -99,10 +69,10 @@
       "pct_full": 99,
       "status": "full",
       "destination": "NLRTM",
-      "lat": 52.005453333333335,
-      "lon": 3.9848616666666667,
-      "speed_kn": 10.3,
-      "last_seen_utc": "2026-11-24 23:15:06.031227017 +0000 UTC"
+      "lat": 51.921245,
+      "lon": 4.201715,
+      "speed_kn": 0.1,
+      "last_seen_utc": "2026-11-25 05:35:52.949754131 +0000 UTC"
     }
   ]
 }
