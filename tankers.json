@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-25T05:39:50+00:00",
+  "updated_utc": "2026-11-25T17:35:17+00:00",
   "area": "English Channel & southern North Sea",
   "boxes": [
     [
@@ -24,55 +24,40 @@
     ]
   ],
   "counts": {
-    "full": 2,
+    "full": 1,
     "empty": 1,
     "unsure": 0
   },
   "ships": [
     {
-      "mmsi": 230687000,
-      "name": "JAARLI",
+      "mmsi": 352006655,
+      "name": "ASP LUCY",
       "size_class": "Aframax",
       "length_m": 250,
-      "draught_m": 11.8,
+      "draught_m": 12.5,
       "full_draught_m": 14.5,
-      "pct_full": 81,
+      "pct_full": 86,
       "status": "full",
-      "destination": "NLRTM",
-      "lat": 51.91838833333334,
-      "lon": 3.530865,
-      "speed_kn": 0,
-      "last_seen_utc": "2026-11-25 05:39:30.249406092 +0000 UTC"
+      "destination": "JORF LASFER,MORROCO",
+      "lat": 50.82781666666666,
+      "lon": 1.0469366666666666,
+      "speed_kn": 14.7,
+      "last_seen_utc": "2026-11-25 17:31:52.58468284 +0000 UTC"
     },
     {
-      "mmsi": 311027400,
-      "name": "MARAN SCOTT",
+      "mmsi": 636021310,
+      "name": "DF MONTMARTRE",
       "size_class": "Aframax",
-      "length_m": 248,
-      "draught_m": 7,
+      "length_m": 250,
+      "draught_m": 8.6,
       "full_draught_m": 14.5,
-      "pct_full": 48,
+      "pct_full": 59,
       "status": "empty",
-      "destination": "NLRTM",
-      "lat": 51.88312,
-      "lon": 4.447435,
-      "speed_kn": 0,
-      "last_seen_utc": "2026-11-25 05:34:03.442142133 +0000 UTC"
-    },
-    {
-      "mmsi": 538005826,
-      "name": "STI GLADIATOR",
-      "size_class": "Aframax",
-      "length_m": 249,
-      "draught_m": 14.3,
-      "full_draught_m": 14.5,
-      "pct_full": 99,
-      "status": "full",
-      "destination": "NLRTM",
-      "lat": 51.921245,
-      "lon": 4.201715,
-      "speed_kn": 0.1,
-      "last_seen_utc": "2026-11-25 05:35:52.949754131 +0000 UTC"
+      "destination": "NOMON",
+      "lat": 51.98002333333333,
+      "lon": 4.079541666666667,
+      "speed_kn": 12,
+      "last_seen_utc": "2026-11-25 17:34:21.642310221 +0000 UTC"
     }
   ]
 }

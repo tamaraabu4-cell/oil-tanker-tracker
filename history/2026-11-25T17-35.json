@@ -1,0 +1,63 @@
+{
+  "updated_utc": "2026-11-25T17:35:17+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 1,
+    "empty": 1,
+    "unsure": 0
+  },
+  "ships": [
+    {
+      "mmsi": 352006655,
+      "name": "ASP LUCY",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 12.5,
+      "full_draught_m": 14.5,
+      "pct_full": 86,
+      "status": "full",
+      "destination": "JORF LASFER,MORROCO",
+      "lat": 50.82781666666666,
+      "lon": 1.0469366666666666,
+      "speed_kn": 14.7,
+      "last_seen_utc": "2026-11-25 17:31:52.58468284 +0000 UTC"
+    },
+    {
+      "mmsi": 636021310,
+      "name": "DF MONTMARTRE",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 8.6,
+      "full_draught_m": 14.5,
+      "pct_full": 59,
+      "status": "empty",
+      "destination": "NOMON",
+      "lat": 51.98002333333333,
+      "lon": 4.079541666666667,
+      "speed_kn": 12,
+      "last_seen_utc": "2026-11-25 17:34:21.642310221 +0000 UTC"
+    }
+  ]
+}
