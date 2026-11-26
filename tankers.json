@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-25T17:35:17+00:00",
+  "updated_utc": "2026-11-26T02:00:20+00:00",
   "area": "English Channel & southern North Sea",
   "boxes": [
     [
@@ -24,40 +24,40 @@
     ]
   ],
   "counts": {
-    "full": 1,
+    "full": 0,
     "empty": 1,
-    "unsure": 0
+    "unsure": 1
   },
   "ships": [
     {
-      "mmsi": 352006655,
-      "name": "ASP LUCY",
+      "mmsi": 354290000,
+      "name": "PAROS",
       "size_class": "Aframax",
-      "length_m": 250,
-      "draught_m": 12.5,
+      "length_m": 247,
+      "draught_m": 8.3,
       "full_draught_m": 14.5,
-      "pct_full": 86,
-      "status": "full",
-      "destination": "JORF LASFER,MORROCO",
-      "lat": 50.82781666666666,
-      "lon": 1.0469366666666666,
-      "speed_kn": 14.7,
-      "last_seen_utc": "2026-11-25 17:31:52.58468284 +0000 UTC"
+      "pct_full": 57,
+      "status": "empty",
+      "destination": "WANDELAAR",
+      "lat": 51.35939166666667,
+      "lon": 2.7810433333333333,
+      "speed_kn": 9.9,
+      "last_seen_utc": "2026-11-26 01:55:58.327403432 +0000 UTC"
     },
     {
-      "mmsi": 636021310,
-      "name": "DF MONTMARTRE",
+      "mmsi": 235108528,
+      "name": "KMARIN RESOURCE",
       "size_class": "Aframax",
       "length_m": 250,
-      "draught_m": 8.6,
+      "draught_m": 9,
       "full_draught_m": 14.5,
-      "pct_full": 59,
-      "status": "empty",
-      "destination": "NOMON",
-      "lat": 51.98002333333333,
-      "lon": 4.079541666666667,
-      "speed_kn": 12,
-      "last_seen_utc": "2026-11-25 17:34:21.642310221 +0000 UTC"
+      "pct_full": 62,
+      "status": "unsure",
+      "destination": "GBHAM",
+      "lat": 50.84956,
+      "lon": -1.3276966666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-26 01:58:22.165569519 +0000 UTC"
     }
   ]
 }

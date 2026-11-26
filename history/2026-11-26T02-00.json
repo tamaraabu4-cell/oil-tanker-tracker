@@ -1,0 +1,63 @@
+{
+  "updated_utc": "2026-11-26T02:00:20+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 0,
+    "empty": 1,
+    "unsure": 1
+  },
+  "ships": [
+    {
+      "mmsi": 354290000,
+      "name": "PAROS",
+      "size_class": "Aframax",
+      "length_m": 247,
+      "draught_m": 8.3,
+      "full_draught_m": 14.5,
+      "pct_full": 57,
+      "status": "empty",
+      "destination": "WANDELAAR",
+      "lat": 51.35939166666667,
+      "lon": 2.7810433333333333,
+      "speed_kn": 9.9,
+      "last_seen_utc": "2026-11-26 01:55:58.327403432 +0000 UTC"
+    },
+    {
+      "mmsi": 235108528,
+      "name": "KMARIN RESOURCE",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 9,
+      "full_draught_m": 14.5,
+      "pct_full": 62,
+      "status": "unsure",
+      "destination": "GBHAM",
+      "lat": 50.84956,
+      "lon": -1.3276966666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-26 01:58:22.165569519 +0000 UTC"
+    }
+  ]
+}
