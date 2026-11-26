@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-26T02:00:20+00:00",
+  "updated_utc": "2026-11-26T11:15:11+00:00",
   "area": "English Channel & southern North Sea",
   "boxes": [
     [
@@ -25,39 +25,24 @@
   ],
   "counts": {
     "full": 0,
-    "empty": 1,
+    "empty": 0,
     "unsure": 1
   },
   "ships": [
     {
-      "mmsi": 354290000,
-      "name": "PAROS",
-      "size_class": "Aframax",
-      "length_m": 247,
-      "draught_m": 8.3,
-      "full_draught_m": 14.5,
-      "pct_full": 57,
-      "status": "empty",
-      "destination": "WANDELAAR",
-      "lat": 51.35939166666667,
-      "lon": 2.7810433333333333,
-      "speed_kn": 9.9,
-      "last_seen_utc": "2026-11-26 01:55:58.327403432 +0000 UTC"
-    },
-    {
-      "mmsi": 235108528,
-      "name": "KMARIN RESOURCE",
+      "mmsi": 538006082,
+      "name": "STI STABILITY",
       "size_class": "Aframax",
       "length_m": 250,
       "draught_m": 9,
       "full_draught_m": 14.5,
       "pct_full": 62,
       "status": "unsure",
-      "destination": "GBHAM",
-      "lat": 50.84956,
-      "lon": -1.3276966666666667,
-      "speed_kn": 0,
-      "last_seen_utc": "2026-11-26 01:58:22.165569519 +0000 UTC"
+      "destination": "GBGIB",
+      "lat": 51.497589999999995,
+      "lon": 0.7041183333333334,
+      "speed_kn": 10.7,
+      "last_seen_utc": "2026-11-26 11:14:00.602121129 +0000 UTC"
     }
   ]
 }
