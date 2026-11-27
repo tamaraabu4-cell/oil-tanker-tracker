@@ -1,0 +1,108 @@
+{
+  "updated_utc": "2026-11-27T12:55:39+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 1,
+    "empty": 3,
+    "unsure": 1
+  },
+  "ships": [
+    {
+      "mmsi": 311000766,
+      "name": "LANCING",
+      "size_class": "Aframax",
+      "length_m": 228,
+      "draught_m": 13.6,
+      "full_draught_m": 14.5,
+      "pct_full": 94,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.96848333333333,
+      "lon": 4.069523333333334,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-27 12:53:46.663214938 +0000 UTC"
+    },
+    {
+      "mmsi": 256550000,
+      "name": "AGIOS GERASIMOS",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 8.6,
+      "full_draught_m": 14.5,
+      "pct_full": 59,
+      "status": "empty",
+      "destination": "DKSKA",
+      "lat": 50.31425,
+      "lon": -0.08500666666666666,
+      "speed_kn": 13.9,
+      "last_seen_utc": "2026-11-27 12:49:29.781784645 +0000 UTC"
+    },
+    {
+      "mmsi": 538009474,
+      "name": "MARLIN HESTIA",
+      "size_class": "Aframax",
+      "length_m": 228,
+      "draught_m": 8.8,
+      "full_draught_m": 14.5,
+      "pct_full": 61,
+      "status": "unsure",
+      "destination": "NLRTM",
+      "lat": 51.89716833333333,
+      "lon": 4.3589416666666665,
+      "speed_kn": 0.2,
+      "last_seen_utc": "2026-11-27 12:55:12.231267824 +0000 UTC"
+    },
+    {
+      "mmsi": 241604000,
+      "name": "MINERVA ZENOBIA",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 8.2,
+      "full_draught_m": 14.5,
+      "pct_full": 57,
+      "status": "empty",
+      "destination": "NLRTM",
+      "lat": 51.923795000000005,
+      "lon": 4.2034416666666665,
+      "speed_kn": 1.9,
+      "last_seen_utc": "2026-11-27 12:55:26.285119698 +0000 UTC"
+    },
+    {
+      "mmsi": 240447000,
+      "name": "AMALTHEA",
+      "size_class": "Aframax",
+      "length_m": 248,
+      "draught_m": 8.5,
+      "full_draught_m": 14.5,
+      "pct_full": 59,
+      "status": "empty",
+      "destination": "NLVLI",
+      "lat": 51.397126666666665,
+      "lon": 3.754388333333333,
+      "speed_kn": 0.2,
+      "last_seen_utc": "2026-11-27 12:48:13.090357043 +0000 UTC"
+    }
+  ]
+}

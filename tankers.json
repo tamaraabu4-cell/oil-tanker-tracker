@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-27T03:07:24+00:00",
+  "updated_utc": "2026-11-27T12:55:39+00:00",
   "area": "English Channel & southern North Sea",
   "boxes": [
     [
@@ -24,25 +24,40 @@
     ]
   ],
   "counts": {
-    "full": 2,
-    "empty": 1,
-    "unsure": 2
+    "full": 1,
+    "empty": 3,
+    "unsure": 1
   },
   "ships": [
     {
-      "mmsi": 538004172,
-      "name": "DUBAI ATTRACTION",
+      "mmsi": 311000766,
+      "name": "LANCING",
+      "size_class": "Aframax",
+      "length_m": 228,
+      "draught_m": 13.6,
+      "full_draught_m": 14.5,
+      "pct_full": 94,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.96848333333333,
+      "lon": 4.069523333333334,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-27 12:53:46.663214938 +0000 UTC"
+    },
+    {
+      "mmsi": 256550000,
+      "name": "AGIOS GERASIMOS",
       "size_class": "Aframax",
       "length_m": 250,
-      "draught_m": 13.2,
+      "draught_m": 8.6,
       "full_draught_m": 14.5,
-      "pct_full": 91,
-      "status": "full",
-      "destination": "GBFAW",
-      "lat": 50.837115000000004,
-      "lon": -1.3261933333333333,
-      "speed_kn": 0,
-      "last_seen_utc": "2026-11-27 03:04:03.306901254 +0000 UTC"
+      "pct_full": 59,
+      "status": "empty",
+      "destination": "DKSKA",
+      "lat": 50.31425,
+      "lon": -0.08500666666666666,
+      "speed_kn": 13.9,
+      "last_seen_utc": "2026-11-27 12:49:29.781784645 +0000 UTC"
     },
     {
       "mmsi": 538009474,
@@ -54,10 +69,25 @@
       "pct_full": 61,
       "status": "unsure",
       "destination": "NLRTM",
-      "lat": 51.897126666666665,
-      "lon": 4.358945,
-      "speed_kn": 0.1,
-      "last_seen_utc": "2026-11-27 02:58:12.213431028 +0000 UTC"
+      "lat": 51.89716833333333,
+      "lon": 4.3589416666666665,
+      "speed_kn": 0.2,
+      "last_seen_utc": "2026-11-27 12:55:12.231267824 +0000 UTC"
+    },
+    {
+      "mmsi": 241604000,
+      "name": "MINERVA ZENOBIA",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 8.2,
+      "full_draught_m": 14.5,
+      "pct_full": 57,
+      "status": "empty",
+      "destination": "NLRTM",
+      "lat": 51.923795000000005,
+      "lon": 4.2034416666666665,
+      "speed_kn": 1.9,
+      "last_seen_utc": "2026-11-27 12:55:26.285119698 +0000 UTC"
     },
     {
       "mmsi": 240447000,
@@ -69,40 +99,10 @@
       "pct_full": 59,
       "status": "empty",
       "destination": "NLVLI",
-      "lat": 51.42725666666667,
-      "lon": 3.5819666666666667,
-      "speed_kn": 7.2,
-      "last_seen_utc": "2026-11-27 03:06:36.175035909 +0000 UTC"
-    },
-    {
-      "mmsi": 273129330,
-      "name": "SERDOLIK",
-      "size_class": "Aframax",
-      "length_m": 241,
-      "draught_m": 14.5,
-      "full_draught_m": 14.5,
-      "pct_full": 100,
-      "status": "full",
-      "destination": "SGSIN",
-      "lat": 50.93320166666667,
-      "lon": 1.2082933333333334,
-      "speed_kn": 10.3,
-      "last_seen_utc": "2026-11-27 03:04:07.092611655 +0000 UTC"
-    },
-    {
-      "mmsi": 249948000,
-      "name": "PARTHENON TS",
-      "size_class": "Aframax",
-      "length_m": 250,
-      "draught_m": 8.9,
-      "full_draught_m": 14.5,
-      "pct_full": 61,
-      "status": "unsure",
-      "destination": "PTSET",
-      "lat": 50.66236166666667,
-      "lon": 0.6421316666666667,
-      "speed_kn": 14.6,
-      "last_seen_utc": "2026-11-27 03:07:05.977845806 +0000 UTC"
+      "lat": 51.397126666666665,
+      "lon": 3.754388333333333,
+      "speed_kn": 0.2,
+      "last_seen_utc": "2026-11-27 12:48:13.090357043 +0000 UTC"
     }
   ]
 }

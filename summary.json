@@ -271,5 +271,12 @@
   "full": 2,
   "empty": 1,
   "unsure": 2
+ },
+ {
+  "time_utc": "2026-11-27T12:55:39+00:00",
+  "area": "English Channel & southern North Sea",
+  "full": 1,
+  "empty": 3,
+  "unsure": 1
  }
 ]
