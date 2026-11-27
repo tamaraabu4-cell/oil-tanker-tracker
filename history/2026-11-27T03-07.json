@@ -1,0 +1,108 @@
+{
+  "updated_utc": "2026-11-27T03:07:24+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 2,
+    "empty": 1,
+    "unsure": 2
+  },
+  "ships": [
+    {
+      "mmsi": 538004172,
+      "name": "DUBAI ATTRACTION",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.2,
+      "full_draught_m": 14.5,
+      "pct_full": 91,
+      "status": "full",
+      "destination": "GBFAW",
+      "lat": 50.837115000000004,
+      "lon": -1.3261933333333333,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-27 03:04:03.306901254 +0000 UTC"
+    },
+    {
+      "mmsi": 538009474,
+      "name": "MARLIN HESTIA",
+      "size_class": "Aframax",
+      "length_m": 228,
+      "draught_m": 8.8,
+      "full_draught_m": 14.5,
+      "pct_full": 61,
+      "status": "unsure",
+      "destination": "NLRTM",
+      "lat": 51.897126666666665,
+      "lon": 4.358945,
+      "speed_kn": 0.1,
+      "last_seen_utc": "2026-11-27 02:58:12.213431028 +0000 UTC"
+    },
+    {
+      "mmsi": 240447000,
+      "name": "AMALTHEA",
+      "size_class": "Aframax",
+      "length_m": 248,
+      "draught_m": 8.5,
+      "full_draught_m": 14.5,
+      "pct_full": 59,
+      "status": "empty",
+      "destination": "NLVLI",
+      "lat": 51.42725666666667,
+      "lon": 3.5819666666666667,
+      "speed_kn": 7.2,
+      "last_seen_utc": "2026-11-27 03:06:36.175035909 +0000 UTC"
+    },
+    {
+      "mmsi": 273129330,
+      "name": "SERDOLIK",
+      "size_class": "Aframax",
+      "length_m": 241,
+      "draught_m": 14.5,
+      "full_draught_m": 14.5,
+      "pct_full": 100,
+      "status": "full",
+      "destination": "SGSIN",
+      "lat": 50.93320166666667,
+      "lon": 1.2082933333333334,
+      "speed_kn": 10.3,
+      "last_seen_utc": "2026-11-27 03:04:07.092611655 +0000 UTC"
+    },
+    {
+      "mmsi": 249948000,
+      "name": "PARTHENON TS",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 8.9,
+      "full_draught_m": 14.5,
+      "pct_full": 61,
+      "status": "unsure",
+      "destination": "PTSET",
+      "lat": 50.66236166666667,
+      "lon": 0.6421316666666667,
+      "speed_kn": 14.6,
+      "last_seen_utc": "2026-11-27 03:07:05.977845806 +0000 UTC"
+    }
+  ]
+}
