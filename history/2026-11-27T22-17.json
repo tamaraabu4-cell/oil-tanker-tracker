@@ -1,0 +1,63 @@
+{
+  "updated_utc": "2026-11-27T22:17:11+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 0,
+    "empty": 1,
+    "unsure": 1
+  },
+  "ships": [
+    {
+      "mmsi": 538009474,
+      "name": "MARLIN HESTIA",
+      "size_class": "Aframax",
+      "length_m": 228,
+      "draught_m": 8.8,
+      "full_draught_m": 14.5,
+      "pct_full": 61,
+      "status": "unsure",
+      "destination": "NLRTM",
+      "lat": 51.89711166666667,
+      "lon": 4.358958333333334,
+      "speed_kn": 0.1,
+      "last_seen_utc": "2026-11-27 22:13:12.23065612 +0000 UTC"
+    },
+    {
+      "mmsi": 636024606,
+      "name": "DELTA HELLAS",
+      "size_class": "Suezmax",
+      "length_m": 274,
+      "draught_m": 9.6,
+      "full_draught_m": 16.5,
+      "pct_full": 58,
+      "status": "empty",
+      "destination": "GIBRALTAR",
+      "lat": 51.006184999999995,
+      "lon": 1.3092383333333333,
+      "speed_kn": 12.9,
+      "last_seen_utc": "2026-11-27 22:15:32.925333087 +0000 UTC"
+    }
+  ]
+}
