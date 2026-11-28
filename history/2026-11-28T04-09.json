@@ -1,0 +1,183 @@
+{
+  "updated_utc": "2026-11-28T04:09:40+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 3,
+    "empty": 4,
+    "unsure": 3
+  },
+  "ships": [
+    {
+      "mmsi": 240447000,
+      "name": "AMALTHEA",
+      "size_class": "Aframax",
+      "length_m": 248,
+      "draught_m": 9,
+      "full_draught_m": 14.5,
+      "pct_full": 62,
+      "status": "unsure",
+      "destination": "FOR ORDERS",
+      "lat": 51.430928333333334,
+      "lon": 3.5772833333333334,
+      "speed_kn": 14.5,
+      "last_seen_utc": "2026-11-28 04:07:02.870029694 +0000 UTC"
+    },
+    {
+      "mmsi": 538011492,
+      "name": "BRANDS HATCH",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 14.7,
+      "full_draught_m": 14.5,
+      "pct_full": 100,
+      "status": "full",
+      "destination": "PLGDN",
+      "lat": 50.40040333333333,
+      "lon": 0.4687033333333333,
+      "speed_kn": 10.2,
+      "last_seen_utc": "2026-11-28 04:01:15.248298572 +0000 UTC"
+    },
+    {
+      "mmsi": 249534000,
+      "name": "TENARO",
+      "size_class": "Aframax",
+      "length_m": 228,
+      "draught_m": 8.2,
+      "full_draught_m": 14.5,
+      "pct_full": 57,
+      "status": "empty",
+      "destination": "GIBRALTAR",
+      "lat": 49.52474666666667,
+      "lon": -0.12314666666666667,
+      "speed_kn": 10.1,
+      "last_seen_utc": "2026-11-28 04:08:28.392044737 +0000 UTC"
+    },
+    {
+      "mmsi": 461000253,
+      "name": "CAMEL",
+      "size_class": "Aframax",
+      "length_m": 243,
+      "draught_m": 8.2,
+      "full_draught_m": 14.5,
+      "pct_full": 57,
+      "status": "empty",
+      "destination": "FOR ORDERS",
+      "lat": 49.269668333333335,
+      "lon": -4.25344,
+      "speed_kn": 13.7,
+      "last_seen_utc": "2026-11-28 04:01:25.638311715 +0000 UTC"
+    },
+    {
+      "mmsi": 538011693,
+      "name": "VENTURE IBERIA",
+      "size_class": "Suezmax",
+      "length_m": 298,
+      "draught_m": 9.3,
+      "full_draught_m": 16.5,
+      "pct_full": 56,
+      "status": "empty",
+      "destination": "USMSY",
+      "lat": 51.97089166666667,
+      "lon": 4.087445,
+      "speed_kn": 4.4,
+      "last_seen_utc": "2026-11-28 04:09:18.15025396 +0000 UTC"
+    },
+    {
+      "mmsi": 235108528,
+      "name": "KMARIN RESOURCE",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 11.3,
+      "full_draught_m": 14.5,
+      "pct_full": 78,
+      "status": "unsure",
+      "destination": "NLRTM",
+      "lat": 51.9184,
+      "lon": 3.6293116666666667,
+      "speed_kn": 0,
+      "last_seen_utc": "2026-11-28 04:06:18.211451521 +0000 UTC"
+    },
+    {
+      "mmsi": 538012068,
+      "name": "ATARAKTOS",
+      "size_class": "Suezmax",
+      "length_m": 270,
+      "draught_m": 9.3,
+      "full_draught_m": 16.5,
+      "pct_full": 56,
+      "status": "empty",
+      "destination": "STEENBANK PS",
+      "lat": 51.43972,
+      "lon": 3.66597,
+      "speed_kn": 5.1,
+      "last_seen_utc": "2026-11-28 04:07:37.839089361 +0000 UTC"
+    },
+    {
+      "mmsi": 273125720,
+      "name": "DEMANTOID",
+      "size_class": "Aframax",
+      "length_m": 245,
+      "draught_m": 14.8,
+      "full_draught_m": 14.5,
+      "pct_full": 100,
+      "status": "full",
+      "destination": "SGSIN",
+      "lat": 50.847253333333335,
+      "lon": 1.1652799999999999,
+      "speed_kn": 10.5,
+      "last_seen_utc": "2026-11-28 04:08:38.679691426 +0000 UTC"
+    },
+    {
+      "mmsi": 538009474,
+      "name": "MARLIN HESTIA",
+      "size_class": "Aframax",
+      "length_m": 228,
+      "draught_m": 8.8,
+      "full_draught_m": 14.5,
+      "pct_full": 61,
+      "status": "unsure",
+      "destination": "NLRTM",
+      "lat": 51.89711833333333,
+      "lon": 4.358951666666667,
+      "speed_kn": 0.1,
+      "last_seen_utc": "2026-11-28 04:04:12.190511123 +0000 UTC"
+    },
+    {
+      "mmsi": 538006769,
+      "name": "FRONT LYNX",
+      "size_class": "Aframax",
+      "length_m": 252,
+      "draught_m": 14.1,
+      "full_draught_m": 14.5,
+      "pct_full": 97,
+      "status": "full",
+      "destination": "NLRTM",
+      "lat": 51.917683333333336,
+      "lon": 4.211518333333333,
+      "speed_kn": 0.2,
+      "last_seen_utc": "2026-11-28 04:05:36.194279201 +0000 UTC"
+    }
+  ]
+}
