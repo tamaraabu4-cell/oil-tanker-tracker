@@ -1,0 +1,108 @@
+{
+  "updated_utc": "2026-11-28T13:25:49+00:00",
+  "area": "English Channel & southern North Sea",
+  "boxes": [
+    [
+      [
+        49.0,
+        -6.0
+      ],
+      [
+        51.5,
+        2.0
+      ]
+    ],
+    [
+      [
+        51.0,
+        1.5
+      ],
+      [
+        53.5,
+        5.0
+      ]
+    ]
+  ],
+  "counts": {
+    "full": 2,
+    "empty": 2,
+    "unsure": 1
+  },
+  "ships": [
+    {
+      "mmsi": 228451900,
+      "name": "ORION BOHEMIA",
+      "size_class": "Suezmax",
+      "length_m": 299,
+      "draught_m": 9.2,
+      "full_draught_m": 16.5,
+      "pct_full": 56,
+      "status": "empty",
+      "destination": "SABINE PASS",
+      "lat": 50.76525166666667,
+      "lon": 1.0121966666666666,
+      "speed_kn": 13.1,
+      "last_seen_utc": "2026-11-28 13:22:17.468662089 +0000 UTC"
+    },
+    {
+      "mmsi": 461000253,
+      "name": "CAMEL",
+      "size_class": "Aframax",
+      "length_m": 243,
+      "draught_m": 8,
+      "full_draught_m": 14.5,
+      "pct_full": 55,
+      "status": "empty",
+      "destination": "FOR ORDERS",
+      "lat": 50.18427166666667,
+      "lon": -0.8566333333333334,
+      "speed_kn": 13.8,
+      "last_seen_utc": "2026-11-28 13:23:01.05267638 +0000 UTC"
+    },
+    {
+      "mmsi": 235076275,
+      "name": "EAGLE HELSINKI",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 13.3,
+      "full_draught_m": 14.5,
+      "pct_full": 92,
+      "status": "full",
+      "destination": "FRLEH",
+      "lat": 49.62858666666667,
+      "lon": -0.2265933333333333,
+      "speed_kn": 4.4,
+      "last_seen_utc": "2026-11-28 13:24:37.411867282 +0000 UTC"
+    },
+    {
+      "mmsi": 538009474,
+      "name": "MARLIN HESTIA",
+      "size_class": "Aframax",
+      "length_m": 228,
+      "draught_m": 8.8,
+      "full_draught_m": 14.5,
+      "pct_full": 61,
+      "status": "unsure",
+      "destination": "NLRTM",
+      "lat": 51.94108166666667,
+      "lon": 4.194946666666667,
+      "speed_kn": 11.2,
+      "last_seen_utc": "2026-11-28 13:25:34.182656068 +0000 UTC"
+    },
+    {
+      "mmsi": 235108529,
+      "name": "KMARIN RIGOUR",
+      "size_class": "Aframax",
+      "length_m": 250,
+      "draught_m": 14.3,
+      "full_draught_m": 14.5,
+      "pct_full": 99,
+      "status": "full",
+      "destination": "GBFAW",
+      "lat": 50.79691666666667,
+      "lon": -1.302055,
+      "speed_kn": 9.2,
+      "last_seen_utc": "2026-11-28 13:25:28.029930778 +0000 UTC"
+    }
+  ]
+}
